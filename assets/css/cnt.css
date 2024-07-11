@@ -1,0 +1,55 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+
+/*===== VARIABLES CSS =====*/
+:root {
+    --header-height: 4.5rem;
+
+    /*===== Colores =====*/
+    --first-color: #3664F4;
+    --dark-color: #070D1F;
+    --navy-blue: #293241;
+    --dark-color-alt: #282B3A;
+    --white-color: #F5F9FF;
+
+    /*===== Fuente y tipografia =====*/
+    --body-font: 'Poppins', sans-serif;
+    --second-font: 'Nunito ';
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+
+    /*===== z index =====*/
+    --z-fixed: 100;
+}
+
+
+@media screen and (min-width: 768px) {
+    :root {
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+    }
+}
+
+/*===== BASE =====*/
+*,
+::before,
+::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+}
+
+.atf {
+    width: auto;
+    height: 40%;
+    font-family: var(--body-font);
+    background-color: #222222;
+}
