@@ -28,7 +28,7 @@
 
                 <div class="nav__perfil">
                     <div>
-                        <a href="#" class="nav__name"><img src="assets\image\AD.png" alt="" style="height:40px; width: 90px;"></a>
+                        <a href="#" class="nav__name"><img src="assets/images/AD.png" alt="" style="height:40px; width: 90px;"></a>
                         <!-- <span class="nav__profesion">Web designer  </span> -->
                     </div>
                 </div>
