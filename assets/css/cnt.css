@@ -47,9 +47,28 @@ body {
     font-weight: 500;
 }
 
+
+.ftc {
+    width: 100%;
+    height: 100vh;
+}
+
+
 .atf {
-    width: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
     height: 40%;
     font-family: var(--body-font);
     background-color: #222222;
+}
+
+
+.footer-end {
+    height: 100px;
+    background-color: #252525;
+    color: #6c6c6c;
+    margin: 0;
+    padding: 3.5%;
+    
 }
