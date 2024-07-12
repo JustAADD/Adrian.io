@@ -54,21 +54,72 @@ body {
 }
 
 
-.atf {
-    margin: 0;
-    padding: 0;
+/*===== who i am =====*/
+
+.whoiam {
     width: 100%;
-    height: 40%;
+    height: 100vh;
+    background-color: #ecf3fe;
+}
+
+#idw {
+    padding: 9%;
     font-family: var(--body-font);
-    background-color: #222222;
+}
+
+#idwtextlight {
+    text-align: center;
+    font-size: 15px;
+}
+
+#idwtext {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/*===== cards =====*/
+
+.card {
+    background-color: #d6dde6;
+}
+
+.card img {
+    background-color: #d6dde6;
+}
+
+/*===== try =====*/
+
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    height: 100%;
+    padding: 5%;
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 
-.footer-end {
-    height: 100px;
-    background-color: #252525;
-    color: #6c6c6c;
-    margin: 0;
-    padding: 3.5%;
-    
-}
+
+/*===== footer =====*/
+
+
+
