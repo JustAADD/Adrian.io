@@ -11,7 +11,7 @@
     <title>Document</title>
 
     <!-- MAIN CSS--->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets\css\main.css">
     <title> ADRIAN.IO</title>
 </head>
 
