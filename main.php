@@ -36,7 +36,7 @@
 
         /*footer*/
         .abovethefooter {
-            height: 28rem;
+            height: 25rem;
             width: 100%;
             background-color: #313131;
 
@@ -46,7 +46,7 @@
             width: 100%;
             height: 0;
             padding: 10%;
-            margin-left: 5rem;
+            margin-left: 8rem;
         }
 
         .abovethefooter p {
@@ -89,11 +89,13 @@
         .f-nav__social ion-icon {
             color: #fff;
         }
-
+        .f-contact{
+            font-weight:normal;
+        }
         .f-name,
         .f-email,
         .f-number {
-            margin-bottom: -5px;
+            margin-bottom: 5px;
             /* Adjust spacing between paragraphs */
         }
 
@@ -108,6 +110,16 @@
                 padding: 10px 0;
                 /* Adjust padding for better spacing on small screens */
             }
+        }
+
+        .content{
+            max-width: 100%;
+            height: 0;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            white-space: nowrap;
+           
         }
     </style>
 </head>
@@ -150,7 +162,15 @@
     </header>
 
 
+    <!--Content-->
 
+    <div class="content">
+        <?php
+
+        include('content.php');
+
+        ?>
+    </div>
 
 
     <!--FOOTER-->
@@ -158,7 +178,7 @@
     <div class="abovethefooter">
         <div class="section">
             <p class="f-contact">Contact</p>
-            <img src="./assets/./images/Adrian M.png" alt="" style="height:4rem; width: 20rem;">
+            <img src="./assets/./images/Adrian M.png" alt="" style="height:4rem; width: 20rem; margin-bottom: 10px;">
             <p class="f-name">Adrian Rodrigo Makiling</p>
             <p class="f-email">makilingadrian19@gmail.com</p>
             <p class="f-number">(+63) 976-377-0372 </p>
