@@ -12,7 +12,7 @@
     <title> ADRIAN.IO</title>
 
     <!-- MAIN CSS--->
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/header-main.css">
     <link rel="stylesheet" href="./assets/./css/./magicscroll.css" />
 
 
@@ -36,16 +36,30 @@
             cursor: pointer;
         }
 
-        .p-logo{
+        .p-logo .MagicScroll {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* Align items to the start (top) of the container */
+            flex-wrap: nowrap;
             width: 100%;
-            height: 50%;
-            padding: 5rem;
-
+            height: 14rem;
+            background-color: #232323;
         }
+
+
+        .p-logo .MagicScroll img {
+            max-width: 100%;
+            height: 100px;
+            margin: 0 10px;
+            margin-top:30%;
+            
+        }
+
 
         /*footer*/
         .abovethefooter {
-            height: 25rem;
+            height: 20rem;
             width: 100%;
             background-color: #313131;
 
@@ -54,8 +68,8 @@
         .section {
             width: 100%;
             height: 0;
-            padding: 10%;
-            margin-left: 8rem;
+            padding: 5%;
+            margin-left: 12rem;
         }
 
         .abovethefooter p {
@@ -186,10 +200,15 @@
 
     <!--FOOTER-->
     <div class="p-logo">
-        <div class="MagicScroll" data-options="step: 0; speed: 4000;">
-            <img src="example1.jpg">
-            <img src="example2.jpg">
-            ...
+        <div class="MagicScroll" data-options="step: 0; speed: 10000;">
+            <img src="./assets/./images/./bxtra.png">
+            <img src="./assets/./images/./Comfort zone.png">
+            <img src="./assets/./images/./hole in one.png">
+            <img src="./assets/./images/./jrt.png">
+            <img src="./assets/./images/./parkdev.png">
+            <img src="./assets/./images/./pdy.png">
+            <img src="./assets/./images/./sds.png">
+            <img src="./assets/./images/./wbc.png">
         </div>
     </div>
 
@@ -228,15 +247,14 @@
     </div>
 
     <script src="../assets/js/script.js"></script>
-    <script src="./assets/./js/./magicscroll.js"></script>
     <!-- ===== IONICONS ===== -->
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     <!--===== MAIN JS =====-->
-    <script src="assets/js/main.js"></script>
+    <script src="./assets/./js/./main.js"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+    <script src="./assets/./js/./magicscroll.js"></script>
 </body>
 
 </html>
