@@ -8,10 +8,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/./images/./AD-icon.png" sizes="16x16">
     <title> ADRIAN.IO</title>
 
     <!-- MAIN CSS--->
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/./css/./magicscroll.css" />
+
 
     <style>
         .nav__list {
@@ -33,6 +36,12 @@
             cursor: pointer;
         }
 
+        .p-logo{
+            width: 100%;
+            height: 50%;
+            padding: 5rem;
+
+        }
 
         /*footer*/
         .abovethefooter {
@@ -89,9 +98,11 @@
         .f-nav__social ion-icon {
             color: #fff;
         }
-        .f-contact{
-            font-weight:normal;
+
+        .f-contact {
+            font-weight: normal;
         }
+
         .f-name,
         .f-email,
         .f-number {
@@ -112,14 +123,14 @@
             }
         }
 
-        .content{
+        .content {
             max-width: 100%;
             height: 0;
             margin: 0;
             padding: 0;
             overflow-x: hidden;
             white-space: nowrap;
-           
+
         }
     </style>
 </head>
@@ -174,6 +185,13 @@
 
 
     <!--FOOTER-->
+    <div class="p-logo">
+        <div class="MagicScroll" data-options="step: 0; speed: 4000;">
+            <img src="example1.jpg">
+            <img src="example2.jpg">
+            ...
+        </div>
+    </div>
 
     <div class="abovethefooter">
         <div class="section">
@@ -210,6 +228,7 @@
     </div>
 
     <script src="../assets/js/script.js"></script>
+    <script src="./assets/./js/./magicscroll.js"></script>
     <!-- ===== IONICONS ===== -->
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     <!--===== MAIN JS =====-->
