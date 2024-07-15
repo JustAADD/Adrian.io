@@ -44,6 +44,7 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     font-weight: 500;
+    
 }
 
 ul {
@@ -168,6 +169,10 @@ img {
 .nav__name {
     display: block;
     color: var(--dark-color);
+}
+
+.nav__name img {
+    color: var(--dark-color)
 }
 
 .nav__profesion {

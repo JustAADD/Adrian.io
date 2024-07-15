@@ -13,7 +13,7 @@
 
     <!-- MAIN CSS--->
     <link rel="stylesheet" href="./assets/css/header-main.css">
-    <link rel="stylesheet" href="./assets/./css/./magicscroll.css" />
+    <link rel="stylesheet" href="./assets/./css/./logos-slide.css" />
 
 
     <style>
@@ -51,8 +51,8 @@
             max-width: 100%;
             height: 100px;
             margin: 0 10px;
-            margin-top:30%;
-            
+            margin-top: 30%;
+
         }
 
 
@@ -138,12 +138,11 @@
 
         .content {
             max-width: 100%;
-            height: 0;
+            height: 50rem;
             margin: 0;
             padding: 0;
             overflow-x: hidden;
             white-space: nowrap;
-
         }
     </style>
 </head>
@@ -185,21 +184,20 @@
         </nav>
     </header>
 
-    <!--update kolang ulit-->
     <!--Content-->
 
     <div class="content">
         <?php
 
-        include('content.php');
+        include('./content.php');
 
         ?>
     </div>
 
 
     <!--FOOTER-->
-    <div class="p-logo">
-        <div class="MagicScroll" data-options="step: 0; speed: 10000;">
+    <div class="logos">
+        <div class="logos-slide">
             <img src="./assets/./images/./bxtra.png">
             <img src="./assets/./images/./Comfort zone.png">
             <img src="./assets/./images/./hole in one.png">
@@ -253,7 +251,7 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="./assets/./js/./magicscroll.js"></script>
+ 
 </body>
 
 </html>
