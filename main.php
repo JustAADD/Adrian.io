@@ -161,7 +161,7 @@
                 <div class="nav__perfil">
                     <div>
                         <a href="#" class="nav__name">
-                            <img src="assets/images/AD.png" alt="" style="height:40px; width: 90px;">
+                            <img src="./assets/./images/./AD.png" alt="" style="height:40px; width: 90px;">
                         </a>
                     </div>
                 </div>
