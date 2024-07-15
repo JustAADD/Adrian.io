@@ -10,7 +10,7 @@
 
 .logos {
     overflow: hidden;
-    padding: 60px 0;
+    padding: 30px 0;
     background: #232323;
     ;
     white-space: nowrap;
@@ -47,6 +47,7 @@
 }
 
 .logos-slide img {
-    height: 120px;
+    height: 110px;
+    width: 18rem;
     margin: 0 40px;
 }

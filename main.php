@@ -138,7 +138,6 @@
 
         .content {
             max-width: 100%;
-            height: 50rem;
             margin: 0;
             padding: 0;
             overflow-x: hidden;
