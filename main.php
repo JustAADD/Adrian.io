@@ -28,7 +28,6 @@
         .nav__listed {
             display: flex;
             justify-content: center;
-
         }
 
         .nav__social ion-icon {
