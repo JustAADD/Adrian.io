@@ -54,18 +54,22 @@ body {
 
 .carousel {
     height: 80vh;
-    background-color: #070D1F;
+    
 }
 
 .carousel-inner {
     height: 80%;
-    background-color: #070D1F;
+   
 }
 
 .carousel-item,
 .carousel-item img {
     height: 80%;
 
+}
+
+.carousel-inner img{
+    height: 100vh;
 }
 
 #whoiam {
