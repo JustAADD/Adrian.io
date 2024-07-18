@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADRIAN.IO</title>
 
-    <link rel="stylesheet" href="assets/css//cnt.css">
+    <link rel="stylesheet" href="assets\css\cnt.css">
 
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
-       
+
     </style>
 
 </head>
@@ -49,33 +49,54 @@
     </div>
 
     <div class="container-fluid p-0">
+
         <div class="row align-items-center" id="whoiam">
+            <p class="text-center" id="centerText">ART IS NOT FOR PHILOSOPHY IT'S FOR LIFE</p>
+            <p class="text-center" id="centerText2">WHAT I DO</p>
             <div class="col">
                 <div class="card text-center">
-                    <div class="card-body">
-                        <h5 class="card-title">lorem</h5>
-                        <a href="#" class="btn btn-dark">Open Project</a>
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <img src="./assets/./images//design.png" alt="icon" style="height:90px; width: 90px;">
+                        <h5 class="card-title">DESIGN</h5>
+                        <p>I believe that great design<br>
+                            leads to an exceptional user experience, <br>
+                            which in turn fosters customer loyalty.<br>
+                            Let’s design your future together.</p>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card text-center">
-                    <div class="card-body">
-                        <h5 class="card-title">lorem</h5>
-                        <a href="#" class="btn btn-dark">Open Project</a>
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <img src="./assets/./images//web-design.png" alt="icon" style="height:90px; width: 90px;">
+                        <h5 class="card-title">WEBSITE DESIGN</h5>
+                        <p>Through my personal experience with <br>
+                            past projects, I have found that effective<br>
+                            website design helps you achieve <br>
+                            and create impactful design outputs.</p>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card text-center">
-                    <div class="card-body">
-                        <h5 class="card-title">lorem</h5>
-                        <a href="#" class="btn btn-dark">Open Project</a>
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <img src="./assets/./images//web-programming.png" alt="icon" style="height:90px; width: 90px;">
+                        <h5 class="card-title">WEBSITE DEVELOPMENT</h5>
+                        <p>With my experiencein website development<br>
+                            I can help you create an efficient and <br>
+                            effective online presence </p>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="container-fluid p-0">
+        <p class="text-center" id="centerText">LET'S COLLABORATE AND COLOR YOUR IDEA'S</p>
+        <p class="text-center" id="centerText2">PAST PROJECT</p>
+    </div>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
