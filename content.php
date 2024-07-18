@@ -95,16 +95,45 @@
     <div class="container-fluid p-0" id="projects">
 
         <p class="text-center" id="centerText">LET'S COLLABORATE AND COLOR YOUR IDEA'S</p>
-        <p class="text-center" id="centerText2">PAST PROJECT</p>
+        <p class="text-center mb-5" id="centerText2">PAST PROJECT</p>
         <div class="row align-items-center">
-            <div class="col">
-                <img src="" alt="">
+            <div class="col project-item">
+                <div class="project-content">
+                    <img src="./assets//images//cz-cover.jpg" alt="">
+                    <div class="project-info">
+                        <h3>Comfort Zone</h3>
+                        <p>Description of the project.</p>
+                        <a href="#" class="btn btn-dark">View details</a>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <img src="" alt="">
+            <div class="col project-item">
+                <div class="project-content">
+                    <img src="./assets//images//wbc-cover.jpg" alt="">
+                    <div class="project-info">
+                        <h3>Winner Boys Club</h3>
+                        <p>Description of the project.</p>
+                        <a href="#" class="btn btn-dark">View details</a>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <img src="" alt="">
+            <div class="col project-item">
+                <div class="project-content">
+                    <img src="./assets//images//pdy-cover.jpeg" alt="">
+                    <div class="project-info">
+                        <h3>Payday Club</h3>
+                        <p>Description of the project.</p>
+                        <a href="#" class="btn btn-dark">View details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col project-item">
+                <div class="project-content">
+                    <img src="./assets//images//parkdev-cover.jpg" alt="">
+                    <div class="project-info">
+                        <a href="#" class="btn btn-dark">See more</a>
+                    </div>
+                </div>
             </div>
         </div>
 
