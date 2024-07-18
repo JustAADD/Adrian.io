@@ -56,7 +56,7 @@
             <div class="col">
                 <div class="card text-center">
                     <div class="card-body d-flex flex-column align-items-center">
-                        <img src="./assets/./images//design.png" alt="icon" style="height:90px; width: 90px;">
+                        <img src="./assets/./images//web-design.png" alt="icon" style="height:90px; width: 90px;">
                         <h5 class="card-title">DESIGN</h5>
                         <p>I believe that great design<br>
                             leads to an exceptional user experience, <br>
@@ -68,7 +68,7 @@
             <div class="col">
                 <div class="card text-center">
                     <div class="card-body d-flex flex-column align-items-center">
-                        <img src="./assets/./images//web-design.png" alt="icon" style="height:90px; width: 90px;">
+                        <img src="./assets/./images//design.png" alt="icon" style="height:90px; width: 90px;">
                         <h5 class="card-title">WEBSITE DESIGN</h5>
                         <p>Through my personal experience with <br>
                             past projects, I have found that effective<br>
@@ -92,9 +92,23 @@
         </div>
     </div>
 
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0" id="projects">
+
         <p class="text-center" id="centerText">LET'S COLLABORATE AND COLOR YOUR IDEA'S</p>
         <p class="text-center" id="centerText2">PAST PROJECT</p>
+        <div class="row align-items-center">
+            <div class="col">
+                <img src="" alt="">
+            </div>
+            <div class="col">
+                <img src="" alt="">
+            </div>
+            <div class="col">
+                <img src="" alt="">
+            </div>
+        </div>
+
+
     </div>
 
 
