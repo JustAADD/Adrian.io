@@ -48,6 +48,8 @@
         </div>
     </div>
 
+    <!-- What i do -->
+
     <div class="container-fluid p-0">
 
         <div class="row align-items-center" id="whoiam">
@@ -92,6 +94,22 @@
         </div>
     </div>
 
+    <!-- Programming Tools -->
+
+    <div class="container-fluid p-0" id="tools">
+        <div class="row">
+            <div class="col">
+
+            </div>
+            <div class="col">
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Projects -->
+
     <div class="container-fluid p-0" id="projects">
 
         <p class="text-center" id="centerText">LET'S COLLABORATE AND COLOR YOUR IDEA'S</p>
@@ -131,14 +149,30 @@
                 <div class="project-content">
                     <img src="./assets//images//parkdev-cover.jpg" alt="">
                     <div class="project-info">
-                        <a href="#" class="btn btn-dark">See more</a>
+                        <h3>Payday Club</h3>
+                        <p>Description of the project.</p>
+                        <a href="#" class="btn btn-dark">View details</a>
                     </div>
                 </div>
             </div>
+
         </div>
-
-
     </div>
+
+    <!-- Website Client -->
+
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col">
+
+            </div>
+            <div class="col">
+
+            </div>
+        </div>
+    </div>
+
+
 
 
 

@@ -30,6 +30,20 @@
         --normal-font-size: 1rem;
         --small-font-size: .875rem;
     }
+
+    .container-fluid {
+
+        overflow-x: hidden;
+    }
+
+    #whoiam {
+        overflow-x: hidden;
+    }
+    
+    #projects{
+        overflow-x: hidden;
+    }
+    
 }
 
 /*===== BASE =====*/
@@ -50,6 +64,7 @@ body {
 
 .container-fluid {
     height: 100%;
+    overflow-x: hidden;
 }
 
 .carousel {
