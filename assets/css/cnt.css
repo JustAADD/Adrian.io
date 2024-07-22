@@ -250,7 +250,7 @@ body {
     align-items: center;
     margin: 0 40px;
     padding-top: 5rem;
-    padding-left: 5rem ;
+    padding-left: 5rem;
 }
 
 #tech-row {
@@ -282,6 +282,27 @@ body {
     color: #ecf3fe;
 }
 
-#tech-hover span{
+#tech-hover span {
     margin-left: 5%;
+}
+
+.carousel-caption h5 {
+    font-family: var(--body-font);
+}
+
+.name {
+    font-size: 5rem;
+    letter-spacing: 10px;
+}
+
+.btn-class {
+
+    background-color: #e9ecef;
+    border: none;
+    border-radius: 20px;
+    width: 8rem;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
 }

@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
-
+       
     </style>
 
 </head>
@@ -29,6 +29,12 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>HI I'M <br>
+                            <span class="name"> ADRIAN </span> <br>
+                            <button type="button" class="btn-class ">WHO I AM</button>
+                        </h5>
+                    </div>
                 </div>
                 <div class="carousel-item">
                     <img src="..." class="d-block w-100" alt="...">
@@ -99,7 +105,7 @@
     <div class="container-fluid p-0" id="tools">
         <div class="technologies">
             <p class="text-center" id="centerText">TO NEW INNOVATIONS, THESE ESSENTIALS DRIVE <br>
-              MY JOURNEY IN THE DIGITAL WORLD</p>
+                MY JOURNEY IN THE DIGITAL WORLD</p>
             <p class="text-center mb-5" id="centerText2">TECHNOLOGIES I USED</p>
             <div class="row g-2" id="tech-row">
                 <div class="col-2" id="tech-hover">
@@ -222,7 +228,7 @@
                     </div>
                 </div>
 
-                <div class="col-4" id="tech-hover">
+                <div class="col-3" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="./assets/icons/Mysql.svg" alt="mySQL" style="width: auto; height:200%;">
                         <span class="text">Mysql</span>

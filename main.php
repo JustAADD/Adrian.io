@@ -166,6 +166,19 @@
 
                 <div class="nav__listed">
                     <ul class="nav__list">
+                        <li class="Home">
+                            <p class="text-link">Home</p>
+                        </li>
+                        <li class="Portfolio">
+                            <p class="text-link">Portfolio</p>
+                        </li>
+                        <li class="Blog">
+                            <p class="text-link">Blog</p>
+                        </li>
+                        <li class="CV">
+                            <p class="text-link">CV</p>
+                        </li>
+
                         <li class="nav__social">
                             <ion-icon name="logo-linkedin"></ion-icon>
                         </li>
@@ -250,7 +263,7 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
- 
+
 </body>
 
 </html>
