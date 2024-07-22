@@ -98,7 +98,8 @@
 
     <div class="container-fluid p-0" id="tools">
         <div class="technologies">
-            <p class="text-center" id="centerText">TO NEW INNOVATIONS, THESE ESSENTIALS DRIVE MY JOURNEY IN THE DIGITAL WORLD</p>
+            <p class="text-center" id="centerText">TO NEW INNOVATIONS, THESE ESSENTIALS DRIVE <br>
+              MY JOURNEY IN THE DIGITAL WORLD</p>
             <p class="text-center mb-5" id="centerText2">TECHNOLOGIES I USED</p>
             <div class="row g-2" id="tech-row">
                 <div class="col-2" id="tech-hover">
