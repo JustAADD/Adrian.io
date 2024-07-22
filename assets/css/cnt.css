@@ -269,8 +269,14 @@ body {
     color: #ecf3fe;
 }
 
+
+
 #tech-hover :hover {
     background-color: #070D1F;
     border-color: #070D1F;
     color: #ecf3fe;
+}
+
+#tech-hover span{
+    margin-left: 5%;
 }

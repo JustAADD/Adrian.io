@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADRIAN.IO</title>
 
-    <link rel="stylesheet" href="./assets/css//cnt.css">
+    <link rel="stylesheet" href="./assets/css/cnt.css">
 
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -103,125 +103,134 @@
             <div class="row g-2" id="tech-row">
                 <div class="col-2" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
-                        <img src="" alt="Figma">
+                        <img src="./assets/icons/Figma.svg" alt="Figma" style="width: auto; height:200%;">
+                        <span class="text">Figma</span>
                     </div>
                 </div>
                 <div class="col-3" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
-                        <img src="" alt="Adobe Photoshop">
-                    </div>
-                </div>
-                <div class="col-4" id="tech-hover">
-                    <div class="p-3 border" id="tech-col">
-                        <img src="" alt="Adobe Illustrator">
+                        <img src="./assets/icons/Photoshop.svg" alt="Adobe Photoshop" style="width: auto; height:200%;">
+                        <span class="text">Adobe Photoshop</span>
                     </div>
                 </div>
                 <div class="col-3" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
-                        <img src="" alt="Canva">
+                        <img src="./assets/icons/AI.svg" alt="Adobe Illustrator" style="width: auto; height:200%;">
+                        <span class="text">Adobe Illustrator</span>
+                    </div>
+                </div>
+                <div class="col-3" id="tech-hover">
+                    <div class="p-3 border" id="tech-col">
+                        <img src="./assets/icons/Canva.svg" alt="Canva" style="width: auto; height:200%;">
+                        <span class="text">Canva</span>
                     </div>
                 </div>
 
-                <div class="col-4" id="tech-hover">
+                <div class="col-3" id="tech-hover">
                     <div class="p-2 border" id="tech-col">
-                        <img src="" alt="Indesign">
-                    </div>
-                </div>
-                <div class="col-3" id="tech-hover">
-                    <div class="p-2 border" id="tech-col">
-                        <img src="" alt="HTML">
-                    </div>
-                </div>
-
-                <div class="col-2" id="tech-hover">
-                    <div class="p-3 border" id="tech-col">
-                        <img src="" alt="Bootsrap">
-                    </div>
-                </div>
-                <div class="col-2" id="tech-hover">
-                    <div class="p-3 border" id="tech-col">
-                        <img src="" alt="Tailwind">
-                    </div>
-                </div>
-
-                <div class="col-3" id="tech-hover">
-                    <div class="p-3 border" id="tech-col">
-                        <img src="" alt="VScode">
-                    </div>
-                </div>
-
-                <div class="col-4" id="tech-hover">
-                    <div class="p-3 border" id="tech-col">
-                        <img src="" alt="PHP">
+                        <img src="./assets/icons/Indesign.svg" alt="Indesign" style="width: auto; height:100%;">
+                        <span class="text">Indesign</span>
                     </div>
                 </div>
                 <div class="col-2" id="tech-hover">
                     <div class="p-2 border" id="tech-col">
-                        <img src="" alt="JS">
+                        <img src="./assets/icons/Html.svg" alt="HTML" style="width: auto; height:100%;">
+                        <span class="text">HTML</span>
+                    </div>
+                </div>
+                <div class="col-3" id="tech-hover">
+                    <div class="p-3 border" id="tech-col">
+                        <img src="./assets/icons/Bootstrap.svg" alt="Bootsrap" style="width: auto; height:200%;">
+                        <span class="text">Bootstrap</span>
+                    </div>
+                </div>
+                <div class="col-2" id="tech-hover">
+                    <div class="p-3 border" id="tech-col">
+                        <img src="./assets/icons/Tailwind.svg" alt="Tailwind" style="width: auto; height:200%;">
+                        <span class="text">Tailwind</span>
+                    </div>
+                </div>
+
+                <div class="col-3" id="tech-hover">
+                    <div class="p-3 border" id="tech-col">
+                        <img src="./assets/icons/VScode.svg" alt="VScode" style="width: auto; height:200%;">
+                        <span class="text">Vscode</span>
+                    </div>
+                </div>
+                <div class="col-2" id="tech-hover">
+                    <div class="p-3 border" id="tech-col">
+                        <img src="./assets/icons/PHP.svg" alt="PHP" style="width: auto; height:200%;">
+                        <span class="text">PHP</span>
                     </div>
                 </div>
                 <div class="col-3" id="tech-hover">
                     <div class="p-2 border" id="tech-col">
-                        <img src="" alt="JQUERY">
+                        <img src="./assets/icons/Jquery.svg" alt="JQUERY" style="width: auto; height:100%;">
+                        <span class="text">Jquery</span>
+                    </div>
+                </div>
+                <div class="col-3" id="tech-hover">
+                    <div class="p-3 border" id="tech-col">
+                        <img src="./assets/icons/Jira.png" alt="JIRA Software" style="width: auto; height:200%;">
+                        <span class="text">Jira Software</span>
+                    </div>
+                </div>
+
+                <div class="col-2" id="tech-hover">
+                    <div class="p-3 border" id="tech-col">
+                        <img src="./assets/icons/Javascript.svg" alt="Javascript/Jquery" style="width: auto; height:200%;">
+                        <span class="text">Javascript</span>
+                    </div>
+                </div>
+                <div class="col-2" id="tech-hover">
+                    <div class="p-3 border" id="tech-col">
+                        <img src="./assets/icons/Lucidchart.svg" alt="Lucid Chart" style="width: auto; height:200%;">
+                        <span class="text">Lucid Chart</span>
+                    </div>
+                </div>
+                <div class="col-3" id="tech-hover">
+                    <div class="p-2 border" id="tech-col">
+                        <img src="./assets/icons/GSAP.svg" alt="GSAP Animation" style="width: auto; height:100%;">
+                        <span class="text">GSAP Animation</span>
+                    </div>
+                </div>
+
+                <div class="col-3" id="tech-hover">
+                    <div class="p-2 border" id="tech-col">
+                        <img src="./assets/icons/ionic-icon.svg" alt="Ionicon" style="width: auto; height:100%;">
+                        <span class="text">Ionicon</span>
+                    </div>
+                </div>
+                <div class="col-2" id="tech-hover">
+                    <div class="p-3 border" id="tech-col">
+                        <img src="./assets/icons/Wordpress.svg" alt="Wordpress" style="width: auto; height:200%;">
+                        <span class="text">Wordpress</span>
+                    </div>
+                </div>
+                <div class="col-3" id="tech-hover">
+                    <div class="p-3 border" id="tech-col">
+                        <img src="./assets/icons/Github.svg" alt="Github" style="width: auto; height:200%;">
+                        <span class="text">Github</span>
+                    </div>
+                </div>
+
+                <div class="col-3" id="tech-hover">
+                    <div class="p-3 border" id="tech-col">
+                        <img src="./assets/icons/Xampp.svg" alt="XAMPP" style="width: auto; height:200%;">
+                        <span class="text">Xampp</span>
                     </div>
                 </div>
 
                 <div class="col-4" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
-                        <img src="" alt="JIRA Software">
-                    </div>
-                </div>
-                <div class="col-3" id="tech-hover">
-                    <div class="p-3 border" id="tech-col">
-                        <img src="" alt="Javascript/Jquery">
+                        <img src="./assets/icons/Mysql.svg" alt="mySQL" style="width: auto; height:200%;">
+                        <span class="text">Mysql</span>
                     </div>
                 </div>
                 <div class="col-2" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
-                        <img src="" alt="Lucid Chart">
-                    </div>
-                </div>
-                <div class="col-2" id="tech-hover">
-                    <div class="p-3 border" id="tech-col">
-                        <img src="" alt="AOS Animation">
-                    </div>
-                </div>
-
-                <div class="col-4" id="tech-hover">
-                    <div class="p-2 border" id="tech-col">
-                        <img src="" alt="GSAP Animation">
-                    </div>
-                </div>
-                <div class="col-3" id="tech-hover">
-                    <div class="p-2 border" id="tech-col">
-                        <img src="" alt="Ioniconics">
-                    </div>
-                </div>
-                <div class="col-2" id="tech-hover">
-                    <div class="p-3 border" id="tech-col">
-                        <img src="" alt="Wordpress">
-                    </div>
-                </div>
-                <div class="col-3" id="tech-hover">
-                    <div class="p-3 border" id="tech-col">
-                        <img src="" alt="Github">
-                    </div>
-                </div>
-
-                <div class="col-3" id="tech-hover">
-                    <div class="p-3 border" id="tech-col">
-                        <img src="" alt="XAMPP">
-                    </div>
-                </div>
-
-                <div class="col-4" id="tech-hover">
-                    <div class="p-3 border" id="tech-col">
-                        <img src="" alt="SQL">
-                    </div>
-                </div>
-                <div class="col-2" id="tech-hover">
-                    <div class="p-3 border" id="tech-col">
-                        <img src="" alt="VBNET">
+                        <img src="./assets/icons/VB.NET_Logo.svg" alt="VBNET" style="width: auto; height:200%;">
+                        <span class="text">VBnet</span>
                     </div>
                 </div>
 
