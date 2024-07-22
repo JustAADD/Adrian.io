@@ -39,11 +39,11 @@
     #whoiam {
         overflow-x: hidden;
     }
-    
-    #projects{
+
+    #projects {
         overflow-x: hidden;
     }
-    
+
 }
 
 /*===== BASE =====*/
@@ -232,4 +232,45 @@ body {
 #projects .project-content:hover img {
     transform: scale(1.1);
 
+}
+
+/* Tools */
+
+#tools {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.technologies {
+
+    max-width: 100%;
+    height: 100vh;
+}
+
+#tech-row {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#tech-col {
+    border: 1px solid #293241;
+    background-color: #293241;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#tech-col :hover {
+    background-color: #070D1F;
+   border-color:#070D1F;
+   
 }
