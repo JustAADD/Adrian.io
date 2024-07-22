@@ -101,125 +101,125 @@
             <p class="text-center" id="centerText">TO NEW INNOVATIONS, THESE ESSENTIALS DRIVE MY JOURNEY IN THE DIGITAL WORLD</p>
             <p class="text-center mb-5" id="centerText2">TECHNOLOGIES I USED</p>
             <div class="row g-2" id="tech-row">
-                <div class="col-2">
+                <div class="col-2" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="Figma">
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="Adobe Photoshop">
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="Adobe Illustrator">
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="Canva">
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-4" id="tech-hover">
                     <div class="p-2 border" id="tech-col">
                         <img src="" alt="Indesign">
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3" id="tech-hover">
                     <div class="p-2 border" id="tech-col">
                         <img src="" alt="HTML">
                     </div>
                 </div>
 
-                <div class="col-2">
+                <div class="col-2" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="Bootsrap">
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="Tailwind">
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-3" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="VScode">
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-4" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="PHP">
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2" id="tech-hover">
                     <div class="p-2 border" id="tech-col">
                         <img src="" alt="JS">
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3" id="tech-hover">
                     <div class="p-2 border" id="tech-col">
                         <img src="" alt="JQUERY">
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-4" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="JIRA Software">
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="Javascript/Jquery">
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="Lucid Chart">
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="AOS Animation">
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-4" id="tech-hover">
                     <div class="p-2 border" id="tech-col">
-                        <img src="" alt="Green Socks">
+                        <img src="" alt="GSAP Animation">
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3" id="tech-hover">
                     <div class="p-2 border" id="tech-col">
-                        <img src="" alt="Ion Iconics">
+                        <img src="" alt="Ioniconics">
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="Wordpress">
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="Github">
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-3" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="XAMPP">
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-4" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="SQL">
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2" id="tech-hover">
                     <div class="p-3 border" id="tech-col">
                         <img src="" alt="VBNET">
                     </div>

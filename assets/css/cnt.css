@@ -266,11 +266,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    color: #ecf3fe;
 }
 
-#tech-col :hover {
+#tech-hover :hover {
     background-color: #070D1F;
-   border-color:#070D1F;
-   
+    border-color: #070D1F;
+    color: #ecf3fe;
 }
