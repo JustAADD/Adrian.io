@@ -143,10 +143,28 @@
             overflow-x: hidden;
             white-space: nowrap;
         }
+
+        .text-list a {
+            color: #070D1F;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .nav__social ion-icon {
+
+            width: 15px;
+            height: 15px
+        }
+
+    
     </style>
 </head>
 
 <body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+
     <header class="header">
         <a href="#" class="header__logo">ADRIAN</a>
 
@@ -164,21 +182,9 @@
                     </div>
                 </div>
 
+
                 <div class="nav__listed">
                     <ul class="nav__list">
-                        <li class="Home">
-                            <p class="text-link">Home</p>
-                        </li>
-                        <li class="Portfolio">
-                            <p class="text-link">Portfolio</p>
-                        </li>
-                        <li class="Blog">
-                            <p class="text-link">Blog</p>
-                        </li>
-                        <li class="CV">
-                            <p class="text-link">CV</p>
-                        </li>
-
                         <li class="nav__social">
                             <ion-icon name="logo-linkedin"></ion-icon>
                         </li>
@@ -254,6 +260,8 @@
             </div>
         </div>
     </div>
+
+    
 
     <script src="../assets/js/script.js"></script>
     <!-- ===== IONICONS ===== -->

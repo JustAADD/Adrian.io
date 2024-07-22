@@ -12,13 +12,33 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
-       
+        #myBtn {
+            background-color: #313131;
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            border: none;
+            outline: none;
+            color: white;
+            cursor: pointer;
+            padding: 12px;
+            border-radius: 10px;
+            font-size: 15px;
+
+        }
+
+        #myBtn:hover {
+            background-color: #232323;
+            /* Add a dark-grey background on hover */
+        }
     </style>
 
 </head>
 
 <body>
-
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    
     <div class="container-fluid p-0">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -247,12 +267,26 @@
         </div>
     </div>
 
+    <!-- Website Client -->
+
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col">
+
+            </div>
+            <div class="col">
+
+            </div>
+        </div>
+    </div>
+
     <!-- Projects -->
 
     <div class="container-fluid p-0" id="projects">
 
         <p class="text-center" id="centerText">LET'S COLLABORATE AND COLOR YOUR IDEA'S</p>
-        <p class="text-center mb-5" id="centerText2">PAST PROJECT</p>
+        <p class="text-center mb-5" id="centerText2">LATEST PROJECTS
+        </p>
         <div class="row align-items-center">
             <div class="col project-item">
                 <div class="project-content">
@@ -298,21 +332,29 @@
         </div>
     </div>
 
-    <!-- Website Client -->
+    <script>
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
 
-    <div class="container-fluid p-0">
-        <div class="row">
-            <div class="col">
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
 
-            </div>
-            <div class="col">
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
 
-            </div>
-        </div>
-    </div>
-
-
-
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
