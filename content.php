@@ -6,39 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADRIAN.IO</title>
 
-    <link rel="stylesheet" href="./assets/css/cnt.css">
+    <link rel="stylesheet" href="./assets/cnt.css">
 
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
-        #myBtn {
-            background-color: #313131;
-            display: none;
-            position: fixed;
-            bottom: 20px;
-            right: 30px;
-            border: none;
-            outline: none;
-            color: white;
-            cursor: pointer;
-            padding: 12px;
-            border-radius: 10px;
-            font-size: 15px;
 
-        }
-
-        #myBtn:hover {
-            background-color: #232323;
-            /* Add a dark-grey background on hover */
-        }
     </style>
 
 </head>
 
 <body>
+
+
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
-    
+
     <div class="container-fluid p-0">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -120,9 +103,91 @@
         </div>
     </div>
 
+    <!-- Website Client -->
+
+    <div class="container" id="wp-container">
+        <div class="wp-row">
+            <div class="row">
+                <p class="wp-text">WEBSITE PROJECT</p>
+                <div class="card mb-4" style="width: 100%; margin: 0; padding: 0; box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./assets/images/yoo-naa-cover.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body" id="wp-cardbody">
+                                <h5 class="text-start">Ecommerce Website (Yoo-na)</h5>
+                                <p class="text-start">Yoo-Naa is an Ecommerce website brings the business into the modern era with its unique fashion designs <br>
+                                    and serve countries within less than a decade.
+                                </p>
+                                <p class="card-text"><small class="text-muted">Created on June 26, 2023</small></p>
+                                <div class="wp-tools">
+                                    <div class="row">
+                                        <div class="col" id="wp-btn">
+                                            <button type="button" class="btn btn-dark me-2">PHP</button>
+                                            <button type="button" class="btn btn-dark me-2">JS</button>
+                                            <button type="button" class="btn btn-dark me-2">HTML</button>
+                                            <button type="button" class="btn btn-dark ">JAVASCRIPT</button>
+
+                                        </div>
+                                        <div class="col" id="wp-btn">
+                                            <button type="button" class="btn btn-dark me-2">CSS</button>
+                                            <button type="button" class="btn btn-dark me-2">JQUERY</button>
+                                            <button type="button" class="btn btn-dark me-2">JIRA SOFTWARE</button>
+                                            <button type="button" class="btn btn-dark">IOS ANIMATION</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 100%; margin: 0; padding: 0; box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; ">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./assets/images/dental-clinic-cover.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body" id="wp-cardbody">
+                                <h5 class="text-start">Dental clinic Website (Dalino Dental Clinic)</h5>
+                                <p class="text-start"> A Dental Clinic Website offers a variety of dental services, along with inventory management, reports <br>
+                                    and sentiment analysis, also it supports multiple payment transactions <br>
+
+
+                                </p>
+                                <p class="card-text"><small class="text-muted">Created on December 21, 2023 - February 20, 2024</small></p>
+                                <div class="wp-tools">
+                                    <div class="row">
+                                        <div class="col" id="wp-btn">
+                                            <button type="button" class="btn btn-dark me-2">PHP</button>
+                                            <button type="button" class="btn btn-dark me-2">JS</button>
+                                            <button type="button" class="btn btn-dark me-2">HTML</button>
+                                            <button type="button" class="btn btn-dark ">JAVASCRIPT</button>
+
+                                        </div>
+                                        <div class="col" id="wp-btn">
+                                            <button type="button" class="btn btn-dark me-2">CSS</button>
+                                            <button type="button" class="btn btn-dark me-2">JQUERY</button>
+                                            <button type="button" class="btn btn-dark me-2">JIRA SOFTWARE</button>
+                                            <button type="button" class="btn btn-dark">IOS ANIMATION</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
     <!-- Programming Tools -->
 
-    <div class="container-fluid p-0" id="tools">
+    <div class="container-fluid " id="tools">
         <div class="technologies">
             <p class="text-center" id="centerText">TO NEW INNOVATIONS, THESE ESSENTIALS DRIVE <br>
                 MY JOURNEY IN THE DIGITAL WORLD</p>
@@ -267,18 +332,7 @@
         </div>
     </div>
 
-    <!-- Website Client -->
 
-    <div class="container-fluid p-0">
-        <div class="row">
-            <div class="col">
-
-            </div>
-            <div class="col">
-
-            </div>
-        </div>
-    </div>
 
     <!-- Projects -->
 
