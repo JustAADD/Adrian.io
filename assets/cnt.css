@@ -239,13 +239,13 @@ body {
 #tools {
     max-width: 100%;
     margin: 0;
-    padding: 10rem;
+    padding: 6rem;
 
 }
 
 .technologies {
     max-width: 100%;
-    height: 60vh;
+    height: 70vh;
     justify-content: center;
     align-items: center;
 
@@ -354,13 +354,29 @@ body {
 
 #wp-cardbody {
     background-color: #ffffff;
-
 }
+
+
 
 .wp-tools .btn {
     margin-bottom: 10px;
-  
 }
+
+.img-container {
+    overflow: hidden;
+}
+
+.custom-img {
+    transition: transform 2s ease;
+}
+
+.img-container:hover .custom-img {
+    transform: scale(1.1);
+
+}
+
+
+
 
 /* Button UP */
 #myBtn {

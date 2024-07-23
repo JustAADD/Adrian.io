@@ -112,7 +112,9 @@
                 <div class="card mb-4" style="width: 100%; margin: 0; padding: 0; box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="./assets/images/yoo-naa-cover.png" class="img-fluid rounded-start" alt="...">
+                            <div class="img-container">
+                                <img src="./assets/images/yoo-naa-cover.png" class="img-fluid rounded-start custom-img" alt="..." style="width: 100%; height: 100%;padding: 10px;">
+                            </div>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body" id="wp-cardbody">
@@ -146,13 +148,15 @@
                 <div class="card" style="width: 100%; margin: 0; padding: 0; box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; ">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="./assets/images/dental-clinic-cover.png" class="img-fluid rounded-start" alt="...">
+                            <div class="img-container">
+                                <img src="./assets/images/dental-clinic-cover.png" class="img-fluid rounded-start custom-img" alt="..." style="width: 100%; height: 100%;padding: 10px;">
+                            </div>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body" id="wp-cardbody">
                                 <h5 class="text-start">Dental clinic Website (Dalino Dental Clinic)</h5>
                                 <p class="text-start"> A Dental Clinic Website offers a variety of dental services, along with inventory management, reports <br>
-                                    and sentiment analysis, also it supports multiple payment transactions <br>
+                                    and sentiment analysis, also it supports multiple payment transactions. <br>
 
 
                                 </p>
