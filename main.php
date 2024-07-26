@@ -12,7 +12,7 @@
     <title> ADRIAN.IO</title>
 
     <!-- MAIN CSS--->
-    <link rel="stylesheet" href="./assets/css/header-main.css">
+    <link rel="stylesheet" href="./assets/main.css">
     <link rel="stylesheet" href="./assets/./css/./logos-slide.css" />
 
 
@@ -25,7 +25,14 @@
             margin-bottom: 10px;
         }
 
+        .nav__list li {
+            margin: 0 10px;
+
+        }
+
+
         .nav__listed {
+            flex: 1;
             display: flex;
             justify-content: center;
         }
@@ -108,7 +115,7 @@
             text-align: center;
         }
 
-        .f-nav__social ion-icon {
+        .f-nav__social-icons ion-icon {
             color: #fff;
         }
 
@@ -150,14 +157,6 @@
             font-size: 15px;
             font-weight: 500;
         }
-
-        .nav__social ion-icon {
-
-            width: 15px;
-            height: 15px
-        }
-
-    
     </style>
 </head>
 
@@ -182,21 +181,14 @@
                     </div>
                 </div>
 
-
                 <div class="nav__listed">
                     <ul class="nav__list">
-                        <li class="nav__social">
-                            <ion-icon name="logo-linkedin"></ion-icon>
-                        </li>
-                        <li class="nav__social">
-                            <ion-icon name="logo-github"></ion-icon>
-                        </li>
-                        <li class="nav__social">
-                            <ion-icon name="mail-outline"></ion-icon>
-                        </li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#cv">CV</a></li>
                     </ul>
                 </div>
-
 
             </div>
         </nav>
@@ -243,6 +235,7 @@
             <div class="col" id="f-col">
                 <p>©Yea, I also made this website</p>
             </div>
+
             <div class="col" id="f-col">
                 <div class="nav__listed">
                     <ul class="nav__list">
@@ -261,7 +254,7 @@
         </div>
     </div>
 
-    
+
 
     <script src="../assets/js/script.js"></script>
     <!-- ===== IONICONS ===== -->

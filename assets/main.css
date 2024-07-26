@@ -44,7 +44,12 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     font-weight: 500;
-    
+
+}
+
+.dark-mode {
+    background-color: var(--dark-color);
+    color: white;
 }
 
 ul {
@@ -96,12 +101,17 @@ img {
 
 .header__logo {
     color: var(--navy-blue);
+    margin-left: auto;
 }
 
-.header__toggle {
+.nav__content .header__toggle {
     font-size: 1.5rem;
     color: var(--dark-color-alt);
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 /*===== NAV =====*/
@@ -128,13 +138,28 @@ img {
 }
 
 .nav__content {
-    height: 100%;
-    -ms-grid-rows: max-content 3fr max-content;
-    grid-template-rows: -webkit-max-content 3fr -webkit-max-content;
-    grid-template-rows: max-content 1fr max-content;
-    row-gap: 1rem;
+    -ms-grid-columns: (max-content)[2];
+    grid-template-columns: repeat(2, -webkit-max-content);
+    grid-template-columns: repeat(2, max-content);
+    -ms-grid-rows: 1fr;
+    grid-template-rows: 1fr;
+    -webkit-column-gap: 1rem;
+    column-gap: 1rem;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     width: 100%;
 }
+
+.nav__list li a {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-family: var(--body-font);
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
 
 .nav__close {
     position: absolute;
@@ -167,7 +192,7 @@ img {
 } */
 
 .nav__name {
-    display: block;
+    /* display: block; */
     color: var(--dark-color);
 }
 

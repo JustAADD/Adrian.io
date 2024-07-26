@@ -68,7 +68,7 @@
                 <div class="card text-center">
                     <div class="card-body d-flex flex-column align-items-center">
                         <img src="./assets/./images//web-design.png" alt="icon" style="height:90px; width: 90px;">
-                        <h5 class="card-title">DESIGN</h5>
+                        <h5 class="card-title">GRAPHIC DESIGN</h5>
                         <p>I believe that great design<br>
                             leads to an exceptional user experience, <br>
                             which in turn fosters customer loyalty.<br>
