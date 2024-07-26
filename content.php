@@ -121,7 +121,11 @@
                                 <h5 class="text-start">Ecommerce Website (Yoo-na)</h5>
                                 <p class="text-start">Yoo-Naa is an Ecommerce website brings the business into the modern era with its unique fashion designs <br>
                                     and serve countries within less than a decade.
+                                    <span class="details">
+                                        <a href="#" class="text-decoration-none">See Details</a>
+                                    </span>
                                 </p>
+
                                 <p class="card-text"><small class="text-muted">Created on June 26, 2023</small></p>
                                 <div class="wp-tools">
                                     <div class="row">
@@ -150,14 +154,17 @@
                         <div class="col-md-4">
                             <div class="img-container">
                                 <img src="./assets/images/dental-clinic-cover.png" class="img-fluid rounded-start custom-img" alt="..." style="width: 100%; height: 100%;padding: 10px;">
+
                             </div>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body" id="wp-cardbody">
                                 <h5 class="text-start">Dental clinic Website (Dalino Dental Clinic)</h5>
                                 <p class="text-start"> A Dental Clinic Website offers a variety of dental services, along with inventory management, reports <br>
-                                    and sentiment analysis, also it supports multiple payment transactions. <br>
-
+                                    and sentiment analysis, also it supports multiple payment transactions.
+                                    <span class="details">
+                                        <a href="#" class="text-decoration-none">See Details</a>
+                                    </span>
 
                                 </p>
                                 <p class="card-text"><small class="text-muted">Created on December 21, 2023 - February 20, 2024</small></p>
@@ -340,55 +347,63 @@
 
     <!-- Projects -->
 
-    <div class="container-fluid p-0" id="projects">
-
+    <!-- <div class="container-fluid p-0" id="projects">
         <p class="text-center" id="centerText">LET'S COLLABORATE AND COLOR YOUR IDEA'S</p>
         <p class="text-center mb-5" id="centerText2">LATEST PROJECTS
         </p>
-        <div class="row align-items-center">
-            <div class="col project-item">
-                <div class="project-content">
-                    <img src="./assets//images//cz-cover.jpg" alt="">
-                    <div class="project-info">
-                        <h3>Comfort Zone</h3>
-                        <p>Description of the project.</p>
-                        <a href="#" class="btn btn-dark">View details</a>
+        <div class="rowing">
+            <div class="row align-items-center" id="row-projects">
+                <div class="col project-item">
+                    <div class="project-content">
+                        <img src="./assets//images//cz-cover.jpg" alt="">
+                        <div class="project-info">
+                            <h3>Comfort Zone</h3>
+                            <p>Description of the project.</p>
+                            <a href="#" class="btn btn-dark">View details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col project-item">
+                    <div class="project-content">
+                        <img src="./assets//images//wbc-cover.jpg" alt="">
+                        <div class="project-info">
+                            <h3>Winner Boys Club</h3>
+                            <p>Description of the project.</p>
+                            <a href="#" class="btn btn-dark">View details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col project-item">
+                    <div class="project-content">
+                        <img src="./assets//images//pdy-cover.jpeg" alt="">
+                        <div class="project-info">
+                            <h3>Payday Club</h3>
+                            <p>Description of the project.</p>
+                            <a href="#" class="btn btn-dark">View details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col project-item">
+                    <div class="project-content">
+                        <img src="./assets//images//parkdev-cover.jpg" alt="">
+                        <div class="project-info">
+                            <h3>Payday Club</h3>
+                            <p>Description of the project.</p>
+                            <a href="#" class="btn btn-dark">View details</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col project-item">
-                <div class="project-content">
-                    <img src="./assets//images//wbc-cover.jpg" alt="">
-                    <div class="project-info">
-                        <h3>Winner Boys Club</h3>
-                        <p>Description of the project.</p>
-                        <a href="#" class="btn btn-dark">View details</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col project-item">
-                <div class="project-content">
-                    <img src="./assets//images//pdy-cover.jpeg" alt="">
-                    <div class="project-info">
-                        <h3>Payday Club</h3>
-                        <p>Description of the project.</p>
-                        <a href="#" class="btn btn-dark">View details</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col project-item">
-                <div class="project-content">
-                    <img src="./assets//images//parkdev-cover.jpg" alt="">
-                    <div class="project-info">
-                        <h3>Payday Club</h3>
-                        <p>Description of the project.</p>
-                        <a href="#" class="btn btn-dark">View details</a>
-                    </div>
-                </div>
-            </div>
-
         </div>
+    </div> -->
+
+    <div class="container-fluid p-0" id="projects-try">
+        <div class=""></div>
     </div>
+
+
+
+
 
     <script>
         // Get the button:
