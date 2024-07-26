@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADRIAN.IO</title>
 
-    <link rel="stylesheet" href="./assets/cnt.css">
+    <link rel="stylesheet" href="./assets//cnt.css">
 
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
 
     </style>
@@ -22,7 +22,7 @@
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
 
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0" id="home">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -59,8 +59,7 @@
 
     <!-- What i do -->
 
-    <div class="container-fluid p-0">
-
+    <div class="container-fluid p-0" id="about" data-aos="fade-left" data-aos-offset="400" data-aos-easing="ease-in-sine">
         <div class="row align-items-center" id="whoiam">
             <p class="text-center" id="centerText">ART IS NOT FOR PHILOSOPHY IT'S FOR LIFE</p>
             <p class="text-center" id="centerText2">WHAT I DO</p>
@@ -105,10 +104,10 @@
 
     <!-- Website Client -->
 
-    <div class="container" id="wp-container">
+    <div class="container" id="wp-container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">>
         <div class="wp-row">
             <div class="row">
-                <p class="wp-text">WEBSITE PROJECT</p>
+                <p class="wp-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">WEBSITE PROJECT</p>
                 <div class="card mb-4" style="width: 100%; margin: 0; padding: 0; box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;">
                     <div class="row g-0">
                         <div class="col-md-4">
@@ -149,7 +148,7 @@
                     </div>
                 </div>
 
-                <div class="card" style="width: 100%; margin: 0; padding: 0; box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; ">
+                <div class="card" style="width: 100%; margin: 0; padding: 0; box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <div class="img-container">
@@ -198,7 +197,7 @@
 
     <!-- Programming Tools -->
 
-    <div class="container-fluid " id="tools">
+    <div class="container-fluid " id="tools" data-aos="fade-up" data-aos-offset="400" data-aos-easing="ease-in-sine">
         <div class="technologies">
             <p class="text-center" id="centerText">TO NEW INNOVATIONS, THESE ESSENTIALS DRIVE <br>
                 MY JOURNEY IN THE DIGITAL WORLD</p>
@@ -344,10 +343,9 @@
     </div>
 
 
-
     <!-- Projects -->
 
-    <!-- <div class="container-fluid p-0" id="projects">
+    <div class="container-fluid p-0" id="projects" data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <p class="text-center" id="centerText">LET'S COLLABORATE AND COLOR YOUR IDEA'S</p>
         <p class="text-center mb-5" id="centerText2">LATEST PROJECTS
         </p>
@@ -395,11 +393,9 @@
                 </div>
             </div>
         </div>
-    </div> -->
-
-    <div class="container-fluid p-0" id="projects-try">
-        <div class=""></div>
     </div>
+
+
 
 
 
@@ -429,7 +425,10 @@
         }
     </script>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 

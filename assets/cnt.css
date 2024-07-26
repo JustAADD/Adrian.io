@@ -152,7 +152,7 @@ body {
 
 #projects {
     max-width: 100%;
-    height: 100vh;
+    height: 70vh;
     margin: 0;
     padding: 0;
     justify-content: center;
@@ -160,27 +160,17 @@ body {
     text-align: center;
     overflow-x: hidden;
     overflow-y: hidden;
+    
 }
 
-#projects-try {
-    max-width: 100%;
-    height: 100vh;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    overflow: hidden;
-}
+
 
 
 #projects .col {
-    background-color: #282B3A;
     padding: 0 15px;
     margin: 0;
+    padding: 0;
     position: relative;
-    overflow: hidden;
-    box-sizing: border-box;
-    flex: 1;
     overflow: hidden;
 }
 

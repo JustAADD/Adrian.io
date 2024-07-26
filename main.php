@@ -20,13 +20,13 @@
         .nav__list {
             list-style: none;
             display: flex;
-            gap: 5px;
             margin-top: 10px;
             margin-bottom: 10px;
         }
 
         .nav__list li {
             margin: 0 10px;
+            color: #fff;
 
         }
 
@@ -184,9 +184,9 @@
                 <div class="nav__listed">
                     <ul class="nav__list">
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#project">Project</a></li>
+                        <li><a href="#wp-container">Project</a></li>
                         <li><a href="#about">About Me</a></li>
-                        <li><a href="#cv">CV</a></li>
+                        <li><a href="https://drive.google.com/drive/folders/1hPGXbu3hpDvAp5_QfDZlzfTZgKiItfZ8?usp=sharing" target="_blank">CV</a></li>
                     </ul>
                 </div>
 
