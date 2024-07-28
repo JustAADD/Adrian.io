@@ -632,6 +632,7 @@ img {
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     transition: 0.5s ease-out 100ms;
     cursor: pointer;
+    margin-top: 20px;
 
 }
 
@@ -763,7 +764,7 @@ img {
     margin-bottom: 3%;
 }
 
-#wp-button a {
+#wp-button button {
     height: 10%;
     width: 15%;
     font-size: 12px;
