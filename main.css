@@ -735,7 +735,7 @@ img {
 /* website project style */
 #wp-container {
     max-width: 100%;
-    height: 110vh;
+    height: 100vh;
     background-color: #ecf3fe;
     color: var(--dark-color-alt);
     padding: 2%;
@@ -746,7 +746,7 @@ img {
 
 .wp-row {
     height: auto;
-    width: 100%;
+    width: 95%;
     /* background-color: var(--white-color); */
     border-radius: 20px;
     padding-left: 10%;
@@ -894,6 +894,7 @@ img {
 
 #projects .project-content {
     position: relative;
+   
 }
 
 #projects img {
@@ -921,6 +922,7 @@ img {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 15%;
     border-radius: 5px;
+    width: 100%;
 }
 
 #projects .project-info h3 {
@@ -997,5 +999,24 @@ img {
 #body-text {
     text-align: justify;
     line-height: 1.6;
-   
+
+}
+
+/* portfolio */
+
+.portfolio {
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #ecf3fe;
+}
+
+.portfolio img {
+    height: 30%;
+    width: 50%;
+  
 }
