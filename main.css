@@ -976,5 +976,26 @@ img {
 
 #myBtn:hover {
     background-color: #232323;
-    /* Add a dark-grey background on hover */
+}
+
+/* modal style */
+
+.modal-body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.modal-body p {
+    font-family: var(--body-font);
+    color: #10100e;
+}
+
+.title {
+    font-weight: bold;
+}
+
+#body-text {
+    text-align: justify;
+    line-height: 1.6;
+   
 }
