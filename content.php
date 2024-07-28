@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADRIAN.IO</title>
 
-    <link rel="stylesheet" href="./assets//cnt.css">
+    <link rel="stylesheet" href="./assets/cnt.css">
 
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -22,7 +22,7 @@
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
 
-    <div class="container-fluid p-0" id="home">
+    <!-- <div class="container-fluid p-0" id="home">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -31,16 +31,16 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="" class="d-block w-100" alt="...">
+                    <img src="./assets/images/cover1.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption">
                         <h5>HI I'M <br>
                             <span class="name"> ADRIAN </span> <br>
-                            <button type="button" class="btn-class ">WHO I AM</button>
+                            <button type="button" class="btn-class ">WHO AM I</button>
                         </h5>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                    <img src=".." class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                     <img src="..." class="d-block w-100" alt="...">
@@ -54,6 +54,31 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+        </div>
+    </div> -->
+
+    <div class="container-fluid p-0" id="home">
+        <div class="row gx-5" id="hero-image">
+            <div class="col" id="first-col">
+                <div class="p-2">
+                    <p class="text-start" id="name">Adrian Rodrigo Makiling</p>
+                    <p class="text-start" id="role">Website Developer / Graphic Designer / UI,UX Designer</p>
+                    <p class="text-start" id="role1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque a deserunt, <br>
+                        labore numquam vitae tempore itaque, nulla quis, perferendis natus<br>
+                        similique? Totam sit nesciunt nam debitis voluptatibus dolores<br>
+                        doloribus! Magni.</p>
+                    <button type="button" class="btn btn-dark" id="role-btn">WHO AM I</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-2">
+                    <div class="image-wrapper">
+                        <img class="img1" src="./assets/images/cover1.jpg" alt="" />
+                        <img class="img2" src="./assets/images/cover1.jpg" alt="" />
+                        <img class="img3" src="./assets/images/cover1.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -104,7 +129,7 @@
 
     <!-- Website Client -->
 
-    <div class="container" id="wp-container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">>
+    <div class="container" id="wp-container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <div class="wp-row">
             <div class="row">
                 <p class="wp-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">WEBSITE PROJECT</p>
@@ -345,7 +370,7 @@
 
     <!-- Projects -->
 
-    <div class="container-fluid p-0" id="projects" data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <div class="container-fluid p-0" id="projects">
         <p class="text-center" id="centerText">LET'S COLLABORATE AND COLOR YOUR IDEA'S</p>
         <p class="text-center mb-5" id="centerText2">LATEST PROJECTS
         </p>
