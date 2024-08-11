@@ -91,13 +91,42 @@
             background-color: #dfecff;
         }
 
-        #portfolio {
-            margin: 0;
+
+        .port {
+            margin: 0 auto;
             padding: 0;
-            height: 100vh;
-            width: 100%;
-            background-color: #dfecff;
+            justify-content: center;
+            align-items: center;
+            display: flex;
         }
+
+        #portfolio {
+            width: 35%;
+        }
+
+        #container {
+            padding: 2rem;
+
+        }
+
+        .slider-wrapper {
+            position: relative;
+            display: flex;
+            max-width: 80rem;
+            margin: 0 auto;
+
+        }
+
+        .slider {
+            display: flex;
+            aspect-ratio: 16 / 9;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+            box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25%);
+
+        }
+
 
         .nav__list {
             list-style: none;
@@ -291,10 +320,10 @@
                 <div class="p-2">
                     <p class="text-start" id="name">Adrian Rodrigo Makiling</p>
                     <p class="text-start" id="role">Website Developer / Graphic Designer / UI,UX Designer</p>
-                    <p class="text-start" id="role1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Eaque a deserunt,labore numquam vitae tempore itaque, nulla quis, perferendis <br>
-                        natus labore numquam vitae tempore itaque, nulla quis,
-                        doloribus! Magni.</p>
+                    <p class="text-start" id="role1">Hi. Iam Adrian Rodrigo Makiling, a dedicated Website Programmer,
+                        <br>
+                        UI/UX Designer and a Graphic Designer.
+                    </p>
                     <a href="" class="btn btn-dark" id="role-btn">WHO AM I</a>
                 </div>
             </div>
@@ -353,6 +382,113 @@
 
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div class="container" id="container">
+        <div class="port">
+            <img id="portfolio" src="./assets/images/portfolio.png">
+        </div>
+        <div class="slider-wrapper">
+
+            <div class="slider">
+                <img id="slider-1" src="./assets/images/1.jpg">
+            </div>
+            <div class="slider">
+                <img id="slider-2" src="./assets/images/2.jpg">
+            </div>
+            <div class="slider">
+                <img id="slider-3" src="./assets/images/3.jpg">
+            </div>
+            <div class="slider">
+                <img id="slider-4" src="./assets/images/4.jpg">
+            </div>
+
+            <div class="slider-nav">
+                <a href="#slider-1"></a>
+                <a href="#slider-2"></a>
+                <a href="#slider-3"></a>
+                <a href="#slider-4"></a>
+            </div>
+        </div>
+
+        <div class="slider-wrapper mt-5">
+            <div class="slider">
+                <img id="slider-5" src="./assets/images/5.jpg">
+            </div>
+            <div class="slider">
+                <img id="slider-1" src="./assets/images/6.jpg">
+            </div>
+            <div class="slider">
+                <img id="slider-2" src="./assets/images/7.jpg">
+            </div>
+            <div class="slider">
+                <img id="slider-3" src="./assets/images/8.jpg">
+            </div>
+
+            <div class="slider-nav">
+                <a href="#slider-5"></a>
+                <a href="#slider-6"></a>
+                <a href="#slider-7"></a>
+                <a href="#slider-8"></a>
+
+            </div>
+        </div>
+        <!-- sample ui -->
+
+        <div class="slider-wrapper mt-5">
+
+            <div class="slider">
+                <img id="slider-9" src="./assets/images/PARKDEVSITE_page-0001.jpg">
+            </div>
+            <div class="slider">
+                <img id="slider-10" src="./assets/images/PARKDEVSITE_page-0002.jpg">
+            </div>
+            <div class="slider">
+                <img id="slider-11" src="./assets/images/PARKDEVSITE_page-0003.jpg">
+            </div>
+            <div class="slider">
+                <img id="slider-12" src="./assets/images/PARKDEVSITE_page-0004.jpg">
+            </div>
+            <div class="slider">
+                <img id="slider-13" src="./assets/images/PARKDEVSITE_page-0005.jpg">
+            </div>
+
+            <div class="slider-nav">
+                <a href="#slider-9"></a>
+                <a href="#slider-10"></a>
+                <a href="#slider-11"></a>
+                <a href="#slider-12"></a>
+                <a href="#slider-13"></a>
+            </div>
+        </div>
+
+        <div class="slider-wrapper mt-5">
+
+            <div class="slider">
+                <img id="slider-9" src="./assets/images/PARKDEVSITE_page-0006.jpg">
+            </div>
+            <div class="slider">
+                <img id="slider-10" src="./assets/images/PARKDEVSITE_page-0007.jpg">
+            </div>
+            <div class="slider">
+                <img id="slider-11" src="./assets/images/PARKDEVSITE_page-0008.jpg">
+            </div>
+            <div class="slider">
+                <img id="slider-12" src="./assets/images/PARKDEVSITE_page-0009.jpg">
+            </div>
+            <div class="slider">
+                <img id="slider-13" src="./assets/images/PARKDEVSITE_page-0010.jpg">
+            </div>
+
+            <div class="slider-nav">
+                <a href="#slider-9"></a>
+                <a href="#slider-10"></a>
+                <a href="#slider-11"></a>
+                <a href="#slider-12"></a>
+                <a href="#slider-13"></a>
             </div>
         </div>
     </div>
@@ -799,13 +935,6 @@
         </div>
     </div>
 
-
-    <!-- Portfolio -->
-    <div class="container-fluid p-0" id="portfolio">
-        <div class="portfolio">
-            <img src="./assets/images/portfolio.png" alt="">
-        </div>
-    </div>
 
     <!-- Projects -->
 
