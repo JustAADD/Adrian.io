@@ -24,7 +24,7 @@
 
         @media screen and (max-width: 768px) {}
 
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: 576px) {
             body {
                 max-width: 100%;
 
@@ -64,6 +64,10 @@
             }
 
             /* body */
+            #hero-image{
+                padding-top: 100px;
+            }
+            
             #name,
             #role {
                 display: flex;
@@ -71,11 +75,11 @@
                 align-items: center;
                 flex-direction: column;
                 text-align: center;
+                font-size: 5vw;
             }
 
             #role1 {
-                padding-left: 30px;
-                padding-right: 30px;
+
             }
 
             #name {
@@ -83,10 +87,17 @@
             }
 
             .image-wrapper img {
-                width: 180px;
-                height: 12rem;
+                width: 140px;
+                height: 10rem;
 
             }
+
+            #first-col a{
+                width: 140px;
+                margin-top: 10px;
+                font-size: 4vw;
+            }
+
 
 
         }
@@ -325,9 +336,9 @@
         <div class="row gx-5" id="hero-image">
             <div class="col" id="first-col">
                 <div class="p-2">
-                    <p class="text-start" id="name">Adrian Rodrigo Makiling</p>
-                    <p class="text-start" id="role">Website Developer / Graphic Designer / UI,UX Designer</p>
-                    <p class="text-start" id="role1">Hi. Iam Adrian Rodrigo Makiling, a dedicated Website Programmer,
+                    <p class="text" id="name">Adrian Rodrigo Makiling</p>
+                    <p class="text" id="role">Website Developer / Graphic Designer / UI,UX Designer</p>
+                    <p class="text" id="role1">Hi. Iam Adrian Rodrigo Makiling, a dedicated Website Programmer,
                         UI/UX Designer and a Graphic Designer.
                     </p>
                     <a href="" class="btn btn-dark" id="role-btn">WHO AM I</a>
