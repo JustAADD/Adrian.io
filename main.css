@@ -567,20 +567,14 @@ img {
 
 }
 
-#first-col {
-    margin-top: -50px;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
 
-}
 
 #role {
     font-size: 0.9em;
     color: #070D1F;
     font-family: var(--body-font);
     font-weight: lighter;
-    overflow: hidden;
+   
 }
 
 #role1 {
@@ -588,7 +582,7 @@ img {
     color: #070D1F;
     font-family: var(--body-font);
     font-weight: lighter;
-    overflow: hidden;
+    
 
 }
 
@@ -604,7 +598,7 @@ img {
     font-size: 0.8em;
     font-family: var(--body-font);
     width: 22%;
-    height: 15%;
+    height: 20%;
 }
 
 /* image-wrapper */
@@ -1003,21 +997,3 @@ img {
 
 }
 
-/* portfolio */
-
-/* .portfolio {
-    margin: 0;
-    padding: 0;
-    height: 90vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background-color: #ecf3fe;
-}
-
-.portfolio img {
-    height: 30%;
-    width: 50%;
-
-} */
