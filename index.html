@@ -21,25 +21,29 @@
 
     <style>
         /* test1 queries */
-        @media (max-width: 575px) {
+
+        @media screen and (max-width: 768px) {}
+
+        @media screen and (max-width: 575px) {
             body {
-                overflow: hidden;
-                height: 100vh;
-                width: 100%;
+                max-width: 100%;
+
             }
 
             .header {
-                overflow: hidden;
                 width: 100%;
                 height: var(--header-height);
                 position: fixed;
             }
 
+            .header__toggle {
+                height: 2rem;
+                width: 2rem;
+            }
+
             /* nav */
 
-            #nav-menu {
-                overflow: hidden;
-            }
+            #nav-menu {}
 
             .nav__listed {
                 display: flex;
@@ -60,28 +64,31 @@
             }
 
             /* body */
-
-            #home {
-                overflow: hidden;
-                margin: 0;
-            }
-
-            #hero-image {
-                overflow: hidden;
-                height: 100vh;
-                width: 100%;
-                margin: 0;
-            }
-
-            #first-col {
-                margin: 0;
-                padding: 0;
-                padding-top: 10%;
+            #name,
+            #role {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
             }
 
             #role1 {
-                width: 100%;
+                padding-left: 30px;
+                padding-right: 30px;
             }
+
+            #name {
+                margin-top: 2rem;
+            }
+
+            .image-wrapper img {
+                width: 180px;
+                height: 12rem;
+
+            }
+
+
         }
 
         .slides {
@@ -276,7 +283,7 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
 
     <header class="header">
-        <a href="#" class="header__logo">ADRIAN</a>
+        <!-- <a href="#" class="header__logo">ADRIAN</a> -->
 
         <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
 
@@ -321,7 +328,6 @@
                     <p class="text-start" id="name">Adrian Rodrigo Makiling</p>
                     <p class="text-start" id="role">Website Developer / Graphic Designer / UI,UX Designer</p>
                     <p class="text-start" id="role1">Hi. Iam Adrian Rodrigo Makiling, a dedicated Website Programmer,
-                        <br>
                         UI/UX Designer and a Graphic Designer.
                     </p>
                     <a href="" class="btn btn-dark" id="role-btn">WHO AM I</a>
@@ -341,7 +347,7 @@
 
     <!-- What i do -->
 
-    <div class="container-fluid p-0" id="about">
+    <!-- <div class="container-fluid p-0" id="about">
         <div class="row align-items-center" id="whoiam">
             <div class="textto">
                 <p class="text-center" id="centerText">ART IS NOT FOR PHILOSOPHY IT'S FOR LIFE</p>
@@ -384,10 +390,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Portfolio -->
-    <div class="container" id="container">
+    <!-- <div class="container" id="container">
         <div class="port">
             <img id="portfolio" src="./assets/images/portfolio.png">
         </div>
@@ -436,7 +442,7 @@
 
             </div>
         </div>
-        <!-- sample ui -->
+        
 
         <div class="slider-wrapper mt-5">
 
@@ -491,7 +497,7 @@
                 <a href="#slider-13"></a>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Website Client -->
 
