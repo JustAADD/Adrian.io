@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,298 +5,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/./images/./AD-icon.png" sizes="16x16">
-    <title> ADRIAN.IO</title>
+    <title>ADRIAN IO</title>
 
-    <!-- MAIN CSS--->
-    <link rel="stylesheet" href="main.css">
     <link href="./nav.css" rel="stylesheet">
-
+    <link href="./try.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/./css/./logos-slide.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <style>
-        /* test1 queries */
+        @media screen and (max-width: 578px) {
 
-        @media screen and (max-width: 768px) {
-
-            #about,
-            #whoiam {
-                height: auto;
-                width: 100%;
-                margin: 0 auto;
-                padding: 0;
-            }
-
-            #adjust {
-                margin-top: -25px;
-            }
-
-            #adjustment {
-                padding-bottom: 5rem;
-
-            }
-
-            .card {
-                margin-bottom: 10px;
-
-            }
-        }
-
-        @media screen and (max-width: 576px) {
             body {
-                max-width: 100%;
-
-            }
-
-            .header {
                 width: 100%;
-                height: var(--header-height);
-                position: fixed;
+
             }
 
-            .header__toggle {
-                height: 2rem;
-                width: 2rem;
-            }
-
-            /* body */
+            #home,
             #hero-image {
-                padding-top: 100px;
-            }
-
-            #name {
-                margin-top: 2rem;
-                font-size: 6vw;
-            }
-
-            #role {
-                font-size: 5vw;
+                width: 100%;
+                overflow: hidden;
+                margin: 0;
+                padding: 10px;
             }
 
             .image-wrapper img {
-                width: 140px;
-
+                width: 180px;
+                height: 10rem;
             }
 
-            #first-col p {
+            #first-col {
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #name,
+            #role,
+            #role1 {
                 text-align: center;
             }
 
-            #first-col a {
-                width: 140px;
-                margin-top: 10px;
-                font-size: 4vw;
-                height: 2.5rem;
-
+            #name {
+                font-size: 1.9em;
             }
 
-            #about,
-            #whoiam {
+            #role {
+                font-size: 1.1em;
+                font-weight: bold;
+            }
+
+            #role1 {
+                font-size: 1.1em;
+                font-weight: lighter;
+            }
+
+            #role-btn {
+                font-size: 1.1em;
+                font-family: var(--body-font);
+                width: 30%;
+                border-radius: 10px;
+            }
+
+            /* what ido */
+            #whoiam,
+            #about {
                 height: auto;
                 width: 100%;
+            }
+
+            #project {
+                height: 20vh;
+            }
+
+            #web,
+            #web-row {
+                margin: 0 auto;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            }
+
+            #web-card2 {
+                margin-top: 9rem;
+            }
+
+            #tools {
                 margin: 0 auto;
                 padding: 0;
+                width: 100%;
+                height: 50%;
             }
 
-            #adjust {
-                margin-top: -25px;
-            }
-
-            #adjustment {
-                padding-bottom: 5rem;
-
-            }
-
-            .card {
-                margin-bottom: 10px;
-
-            }
-
-            .slider-wrapper {
+            #tech-row {
                 margin: 0 auto;
                 padding: 0;
-                max-width: 100rem;
-                display: contents;
-                position: relative;
-            }
-        }
-
-        #name,
-        #role,
-        #role1 {
-            text-align: left;
-        }
-
-        /* #role-btn {
-            height: 18%;
-        } */
-
-
-        .slides {
-            height: 100vh;
-            width: auto;
-            background-color: #dfecff;
-        }
-
-
-        .port {
-            margin: 0 auto;
-            padding: 0;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-        }
-
-        #portfolio {
-            width: 35%;
-        }
-
-        #container {
-            padding: 2rem;
-
-        }
-
-        .slider-wrapper {
-            position: relative;
-            display: flex;
-            max-width: 100rem;
-            margin: 0 auto;
-
-        }
-
-        .slider {
-            display: flex;
-            aspect-ratio: 16 / 9;
-            overflow-x: auto;
-            scroll-snap-type: x mandatory;
-            scroll-behavior: smooth;
-            box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25%);
-
-        }
-
-
-
-        .nav__social ion-icon {
-            font-size: 15px;
-            cursor: pointer;
-        }
-
-        .p-logo .MagicScroll {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            /* Align items to the start (top) of the container */
-            flex-wrap: nowrap;
-            width: 100%;
-            height: 14rem;
-            background-color: #232323;
-        }
-
-
-        .p-logo .MagicScroll img {
-            max-width: 100%;
-            height: 100px;
-            margin: 0 10px;
-            margin-top: 30%;
-
-        }
-
-
-        /*footer*/
-        .abovethefooter {
-            height: 20rem;
-            width: 100%;
-            background-color: #313131;
-            overflow: hidden;
-        }
-
-        .section {
-            width: 100%;
-            height: 0;
-            padding: 5%;
-            margin-left: 12rem;
-        }
-
-        .abovethefooter p {
-            color: #fff;
-            font-family: 'Poppins', sans-serif;
-            font-size: 13px;
-        }
-
-
-
-        .footer {
-            height: 5rem;
-            width: 100%;
-            background-color: #353535;
-            padding: 20px;
-
-        }
-
-        #f-row {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        #f-col {
-            flex: 1;
-            /* Each column takes up equal space */
-            padding: 0 10px;
-            /* Optional: Add padding between columns */
-        }
-
-        .footer p {
-            color: #777777;
-            font-family: 'Poppins', sans-serif;
-            font-size: 13px;
-            margin: 0;
-            text-align: center;
-        }
-
-        .f-nav__social-icons ion-icon {
-            color: #fff;
-        }
-
-        .f-contact {
-            font-weight: normal;
-        }
-
-        .f-name,
-        .f-email,
-        .f-number {
-            margin-bottom: 5px;
-            /* Adjust spacing between paragraphs */
-        }
-
-        /* Responsive styles (optional) */
-        @media (max-width: 768px) {
-            .row {
-                flex-direction: column;
-                text-align: center;
+                width: 90%;
             }
 
-            .col {
-                padding: 10px 0;
-                /* Adjust padding for better spacing on small screens */
+            #projects {
+                height: 25vh;
             }
-        }
 
-        .content {
-            max-width: 100%;
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-            white-space: nowrap;
-        }
+            .section {
+                margin: 0 auto;
+                padding: 10%;
+            }
 
-        .text-list a {
-            color: #070D1F;
-            font-family: 'Poppins', sans-serif;
-            font-size: 15px;
-            font-weight: 500;
+
+
+            #f-col {
+                margin: 0 auto;
+                padding: 0;
+                display: flex;
+            }
+
+        
+
         }
     </style>
 </head>
@@ -310,12 +131,13 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
 
     <header class="header">
-        <!-- <a href="#" class="header__logo">ADRIAN</a> -->
+        <a href="#" class="header__logo">ADRIAN</a>
 
         <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
 
         <nav class="nav" id="nav-menu">
             <div class="nav__content bd-grid">
+
                 <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
 
                 <div class="nav__perfil">
@@ -324,34 +146,30 @@
                             <img src="./assets/./images/./AD.png" alt="" style="height:40px; width: 90px;">
                         </a>
                     </div>
-
                 </div>
 
-                <div class="nav__listed">
-                    <ul class="nav__list">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#wp-container">Project</a></li>
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="https://drive.google.com/drive/folders/1hPGXbu3hpDvAp5_QfDZlzfTZgKiItfZ8?usp=sharing"
-                                target="_blank">CV</a></li>
-                    </ul>
+                <div class="nav__menu">
+                    <div class="nav__listed">
+                        <ul class="nav__list">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#wp-container">Project</a></li>
+                            <li><a href="#about">About Me</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1hPGXbu3hpDvAp5_QfDZlzfTZgKiItfZ8?usp=sharing"
+                                    target="_blank">CV</a></li>
+                        </ul>
+                    </div>
                 </div>
+
 
             </div>
         </nav>
     </header>
 
-    <!--Content-->
-    <!-- 
-    <div class="content">
-       
-    </div> -->
 
-    <!-- BODY STARTS IN THIS LINE -->
-
+    <!-- Home -->
     <div class="container-fluid p-0" id="home">
-        <div class="row gx-5" id="hero-image">
-            <div class="col" id="first-col">
+        <div class="row g-2" id="hero-image">
+            <div class="col-md-6" id="first-col">
                 <div class="p-2">
                     <p class="text" id="name">Adrian Rodrigo Makiling</p>
                     <p class="text" id="role">Website Developer / Graphic Designer / UI, UX Designer</p>
@@ -361,7 +179,7 @@
                     <a href="" class="btn btn-dark" id="role-btn">WHO AM I</a>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <div class="p-2">
                     <div class="image-wrapper">
                         <img class="img1" src="./assets/images/cover123.jpg" alt="" />
@@ -373,8 +191,7 @@
         </div>
     </div>
 
-    <!-- What i do -->
-
+    <!-- what i do -->
     <div class="container-fluid p-0" id="about">
         <div class="row align-items-center" id="whoiam">
             <div class="textto">
@@ -420,409 +237,7 @@
         </div>
     </div>
 
-    <!-- Portfolio -->
-    <!-- <div class="container" id="container">
-        <div class="port">
-            <img id="portfolio" src="./assets/images/portfolio.png">
-        </div>
-        <div class="slider-wrapper">
-
-            <div class="slider">
-                <img id="slider-1" src="./assets/images/1.jpg">
-            </div>
-            <div class="slider">
-                <img id="slider-2" src="./assets/images/2.jpg">
-            </div>
-            <div class="slider">
-                <img id="slider-3" src="./assets/images/3.jpg">
-            </div>
-            <div class="slider">
-                <img id="slider-4" src="./assets/images/4.jpg">
-            </div>
-
-            <div class="slider-nav">
-                <a href="#slider-1"></a>
-                <a href="#slider-2"></a>
-                <a href="#slider-3"></a>
-                <a href="#slider-4"></a>
-            </div>
-        </div>
-
-        <div class="slider-wrapper mt-5">
-            <div class="slider">
-                <img id="slider-5" src="./assets/images/5.jpg">
-            </div>
-            <div class="slider">
-                <img id="slider-1" src="./assets/images/6.jpg">
-            </div>
-            <div class="slider">
-                <img id="slider-2" src="./assets/images/7.jpg">
-            </div>
-            <div class="slider">
-                <img id="slider-3" src="./assets/images/8.jpg">
-            </div>
-
-            <div class="slider-nav">
-                <a href="#slider-5"></a>
-                <a href="#slider-6"></a>
-                <a href="#slider-7"></a>
-                <a href="#slider-8"></a>
-
-            </div>
-        </div>
-
-
-        <div class="slider-wrapper mt-5">
-
-            <div class="slider">
-                <img id="slider-9" src="./assets/images/PARKDEVSITE_page-0001.jpg">
-            </div>
-            <div class="slider">
-                <img id="slider-10" src="./assets/images/PARKDEVSITE_page-0002.jpg">
-            </div>
-            <div class="slider">
-                <img id="slider-11" src="./assets/images/PARKDEVSITE_page-0003.jpg">
-            </div>
-            <div class="slider">
-                <img id="slider-12" src="./assets/images/PARKDEVSITE_page-0004.jpg">
-            </div>
-            <div class="slider">
-                <img id="slider-13" src="./assets/images/PARKDEVSITE_page-0005.jpg">
-            </div>
-
-            <div class="slider-nav">
-                <a href="#slider-9"></a>
-                <a href="#slider-10"></a>
-                <a href="#slider-11"></a>
-                <a href="#slider-12"></a>
-                <a href="#slider-13"></a>
-            </div>
-        </div>
-
-        <div class="slider-wrapper mt-5">
-
-            <div class="slider">
-                <img id="slider-9" src="./assets/images/PARKDEVSITE_page-0006.jpg">
-            </div>
-            <div class="slider">
-                <img id="slider-10" src="./assets/images/PARKDEVSITE_page-0007.jpg">
-            </div>
-            <div class="slider">
-                <img id="slider-11" src="./assets/images/PARKDEVSITE_page-0008.jpg">
-            </div>
-            <div class="slider">
-                <img id="slider-12" src="./assets/images/PARKDEVSITE_page-0009.jpg">
-            </div>
-            <div class="slider">
-                <img id="slider-13" src="./assets/images/PARKDEVSITE_page-0010.jpg">
-            </div>
-
-            <div class="slider-nav">
-                <a href="#slider-9"></a>
-                <a href="#slider-10"></a>
-                <a href="#slider-11"></a>
-                <a href="#slider-12"></a>
-                <a href="#slider-13"></a>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- Website Client -->
-
-    <div class="container" id="wp-container">
-        <div class="wp-row">
-            <div class="row">
-                <p class="text-center" id="wp-text">MY WEBSITE PROJECT</p>
-                <div class="card mb-4"
-                    style="width: 100%;  margin: 0; padding: 0; box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <div class="img-container">
-                                <img src="./assets/images/yoo-naa-cover.png" class="img-fluid rounded-start custom-img"
-                                    alt="..." style="width: 100%; height: 100%;padding: 10px;">
-                            </div>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body" id="wp-cardbody">
-                                <h5 class="text-start">Ecommerce Website (Yoo-na)</h5>
-                                <p class="text-start">Yoo-Naa is an Ecommerce website brings the business into the
-                                    modern era with its unique fashion designs <br>
-                                    and serve countries within less than a decade.
-                                </p>
-                                <div class="d-flex justify-content-start" id="wp-button">
-                                    <button type="button" class="btn btn-dark" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">
-                                        see details
-                                    </button>
-
-                                    <div class="modal fade" id="exampleModal" tabindex="-1"
-                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog modal-lg modal-dialog-centered">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLabel">Yoo-na Ecommerce
-                                                        Website</h5>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                        aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p class="text-start">
-                                                        <span class="title">Back-end Developer:</span> Adrian Rodrigo
-                                                        Makiling <br>
-                                                        <span class="title">Front-end Developer:</span> Jezzyrel Sanchez
-                                                        <br>
-                                                        <span class="title"> Documents:</span> Melvin Lomboy
-                                                    </p>
-
-                                                    <p class="text-start"><span class="title">Tools Used:</span>
-                                                    </p>
-                                                    <div class="tools">
-
-                                                    </div>
-
-                                                    <p class="text-start" id="body-text">
-                                                        <span class="title">Information and Objectives:</span> <br>
-                                                        <br>
-                                                        YOO-NAA is an online apparel store business that was established
-                                                        on January 18, 2022, by <br>
-                                                        Ms. Andrea Delgado. It is a fashion retailing brand with many
-                                                        social media channels, including <br>
-                                                        Facebook, where it has 17,000 followers. YOO-NAA connects
-                                                        suppliers to their flexible chain through <br>
-                                                        on-demand manufacturing technology, allowing them to reduce
-                                                        inventory waste and deliver a <br>
-                                                        diverse selection of products to their consumers at competitive
-                                                        and cheap costs.
-                                                        <br>
-                                                        <br>
-                                                        The Objectives of this Website aims to integrate a functioning
-                                                        website with admin portal,<br>
-                                                        customer portal, order placement, security through Gmail
-                                                        verification, customer
-                                                        order history, customer details, customer registration, database
-                                                        management, inventory, sales and<br>
-                                                        earning generation, mode of payment through PayPal rest API,
-                                                        Gcash QR code, <br>
-                                                        admin dashboard, and feedback.
-
-                                                        <br>
-                                                        <br>
-                                                        <span class="title">Development Process:</span><br>
-                                                        <br>
-                                                        Project methodology used: Agile Methodology
-                                                        <br>
-                                                        <br>
-                                                        A flexible and adaptive approach to software development
-                                                        emphasizing customer satisfaction, <br>
-                                                        iterative delivery, and quick response to change. Comprises
-                                                        phases of Requirement Analysis, <br>
-                                                        Designing and Coding, Testing, Release, and Feedback,
-                                                        facilitating a swift and adaptable <br>
-                                                        development process.
-                                                        <br>
-                                                        <span class="title">User interface / User Experience</span> <br>
-                                                    </p>
-                                                    <img src="./assets/images/yoo-naa.png" alt="">
-
-                                                    <p class="text-start" style="margin-top:10px;">
-                                                        Click to see the prototype
-                                                        <a href="https://www.figma.com/proto/GTYdEzj7aO3a8BpbfihasI/Untitled?node-id=23-619&t=6UfqkkJxtFUckhzt-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
-                                                            target="_blank"> Yoo-na Website Prototype
-                                                        </a>
-                                                    </p>
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary"
-                                                        data-bs-dismiss="modal">Close</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <p class="text-center"><small class="text-muted">Created on June 26, 2023</small></p>
-                            </div>
-                        </div>
-
-                        <!-- <div class="wp-tools">
-                                    <div class="row">
-                                        <div class="col" id="wp-btn">
-                                            <button type="button" class="btn btn-dark me-2">PHP</button>
-                                            <button type="button" class="btn btn-dark me-2">JS</button>
-                                            <button type="button" class="btn btn-dark me-2">HTML</button>
-                                            <button type="button" class="btn btn-dark ">JAVASCRIPT</button>
-
-                                        </div>
-                                        <div class="col" id="wp-btn">
-                                            <button type="button" class="btn btn-dark me-2">CSS</button>
-                                            <button type="button" class="btn btn-dark me-2">JQUERY</button>
-                                            <button type="button" class="btn btn-dark me-2">JIRA SOFTWARE</button>
-                                            <button type="button" class="btn btn-dark">IOS ANIMATION</button>
-                                        </div>
-                                    </div>
-                                </div> -->
-                    </div>
-                </div>
-
-                <div class="card mb-4"
-                    style="width: 100%;  margin: 0; padding: 0; box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <div class="img-container">
-                                <img src="./assets/images/dental-clinic-cover.png"
-                                    class="img-fluid rounded-start custom-img" alt="..."
-                                    style="width: 100%; height: 100%;padding: 10px;">
-                            </div>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body" id="wp-cardbody">
-                                <h5 class="text-start">Dental clinic Website (Dalino Dental Clinic)</h5>
-                                <p class="text-start"> A Dental Clinic Website offers a variety of dental services,
-                                    along with inventory management, reports <br>
-                                    and sentiment analysis, also it supports multiple payment transactions.
-                                </p>
-                                <div class="d-flex justify-content-start" id="wp-button">
-                                    <button type="button" class="btn btn-dark" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal1">
-                                        see details
-                                    </button>
-
-                                    <div class="modal fade" id="exampleModal1" tabindex="-1"
-                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog modal-lg modal-dialog-centered">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLabel"> Dalino Dental Clinic
-                                                        Website (Our Capstone Defended)</h5>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                        aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p class="text-start">
-                                                        <span class="title">Back-end Developer:</span> Adrian Rodrigo
-                                                        Makiling <br>
-                                                        <span class="title">Front-end Developer:</span> Jezzyrel Sanchez
-                                                        <br>
-                                                        <span class="title"> Documents:</span> Melvin Lomboy
-                                                    </p>
-                                                    <p class="text-start"><span class="title">Tools Used:</span>
-                                                    </p>
-                                                    <div class="tools">
-
-                                                    </div>
-                                                    <p class="text-start" id="body-text">
-                                                        <span class="title">Information and Objectives:</span> <br>
-                                                        <br>
-                                                        Dalino Dental Clinic owned by Ms. Mercedita Batoc-Dalino. The
-                                                        dental clinic concentrated on
-                                                        providing good oral health care to avoid dental disorders,
-                                                        increase general well-being, and develop
-                                                        patients' confidence and comfort in their oral health, all of
-                                                        which contribute to an improved quality
-                                                        of life. Furthermore, delivered good treatment, dentists have
-                                                        built long-term connections with patients
-                                                        while maintaining their professional reputation in the
-                                                        community.
-                                                        <br>
-                                                        <br>
-                                                        The Objectives of this Website aims to integrate a functioning
-                                                        website with admin portal,
-                                                        customer portal, order placement, security through Gmail
-                                                        verification, customer
-                                                        order history, customer details, customer registration, database
-                                                        management, inventory, sales and
-                                                        earning generation, mode of payment through PayPal rest API,
-                                                        Gcash QR code,
-                                                        admin dashboard, and feedback.
-
-                                                        <br>
-                                                        <br>
-                                                        <span class="title">Development Process:</span><br>
-                                                        <br>
-                                                        Project methodology used: Agile Methodology
-                                                        <br>
-                                                        <br>
-                                                        A flexible and adaptive approach to software development
-                                                        emphasizing customer satisfaction, <br>
-                                                        iterative delivery, and quick response to change. Comprises
-                                                        phases of Requirement Analysis, <br>
-                                                        Designing and Coding, Testing, Release, and Feedback,
-                                                        facilitating a swift and adaptable <br>
-                                                        development process.
-
-                                                        <span class="title">User interface / User Experience</span> <br>
-                                                    </p>
-                                                    <img src="./assets/images/dental clinic.png" alt="">
-
-                                                    <p class="text-start" style="margin-top:10px;">
-                                                        Click to see the prototype
-                                                        <a href="https://www.figma.com/proto/GTYdEzj7aO3a8BpbfihasI/Untitled?node-id=23-619&t=6UfqkkJxtFUckhzt-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
-                                                            target="_blank"> Dalino Dental Clinic Website Prototype
-                                                        </a>
-                                                    </p>
-
-                                                    <p class="text-center">
-                                                        This is our the appreciation certificate from my end user/client
-                                                        <br>
-                                                        and the completion
-                                                    </p>
-
-                                                    <div class="row g-0">
-                                                        <div class="col">
-                                                            <img src="./assets/images/sanchez-cert.jpg" alt="">
-                                                        </div>
-                                                        <div class="col">
-                                                            <img src="./assets/images/adrian-cert.jpg" alt="">
-                                                        </div>
-                                                        <div class="col">
-                                                            <img src="./assets/images/melvin-cert.jpg" alt="">
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <img src="./assets/images/capstone-bookbined.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary"
-                                                        data-bs-dismiss="modal">Close</button>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <p class="card-text"><small class="text-muted">Created on December 21, 2023 - February
-                                        20, 2024</small></p>
-                            </div>
-                        </div>
-
-                        <!-- <div class="wp-tools">
-                                    <div class="row">
-                                        <div class="col" id="wp-btn">
-                                            <button type="button" class="btn btn-dark me-2">PHP</button>
-                                            <button type="button" class="btn btn-dark me-2">JS</button>
-                                            <button type="button" class="btn btn-dark me-2">HTML</button>
-                                            <button type="button" class="btn btn-dark ">JAVASCRIPT</button>
-
-                                        </div>
-                                        <div class="col" id="wp-btn">
-                                            <button type="button" class="btn btn-dark me-2">CSS</button>
-                                            <button type="button" class="btn btn-dark me-2">JQUERY</button>
-                                            <button type="button" class="btn btn-dark me-2">JIRA SOFTWARE</button>
-                                            <button type="button" class="btn btn-dark">IOS ANIMATION</button>
-                                        </div>
-                                    </div>
-                                </div> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Programming Tools -->
-
+    <!-- Techstacks -->
     <div class="container-fluid " id="tools">
         <div class="technologies">
             <p class="text-center" id="centerText">TO NEW INNOVATIONS, THESE ESSENTIALS DRIVE <br>
@@ -969,8 +384,289 @@
         </div>
     </div>
 
+    <!-- carousel -->
 
-    <!-- Projects -->
+    <div class="container-fluid p-0" id="project">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/1.jpg" class="d-block w-80" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/2.jpg" class="d-block w-80" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/3.jpg" class="d-block w-80" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/4.jpg" class="d-block w-80" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/5.jpg" class="d-block w-80" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/6.jpg" class="d-block w-80" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/7.jpg" class="d-block w-80" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/8.jpg" class="d-block w-80" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/PARKDEVSITE_page-0001.jpg" class="d-block w-80" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/PARKDEVSITE_page-0002.jpg" class="d-block w-80" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/PARKDEVSITE_page-0003.jpg" class="d-block w-80" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/PARKDEVSITE_page-0004.jpg" class="d-block w-80" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/PARKDEVSITE_page-0005.jpg" class="d-block w-80" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <!-- Website Client -->
+
+    <!-- <div class="container" id="web">
+
+        <div class="row align-items-center" id="web-row">
+            <div class="col-md-6 ">
+                <div class="card" style="width: 25rem;">
+                    <img src="./assets/images/dental-clinic-cover.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="text-start"> A Dental Clinic Website offers a variety of dental services,
+                            along with inventory management, reports
+                            and sentiment analysis, also it supports multiple payment transactions.
+                        </p>
+                        <button type="button" id="web-button" class="btn btn-dark" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1">
+                            See details
+                        </button>
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel"> Dalino Dental Clinic
+                                            Website (Our Capstone Defended)</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-start">
+                                            <span class="title">Back-end Developer:</span> Adrian Rodrigo
+                                            Makiling <br>
+                                            <span class="title">Front-end Developer:</span> Jezzyrel Sanchez
+                                            <br>
+                                            <span class="title"> Documents:</span> Melvin Lomboy
+                                        </p>
+                                        <p class="text-start"><span class="title">Tools Used:</span>
+                                        </p>
+                                        <div class="tools">
+
+                                        </div>
+                                        <p class="text-start" id="body-text">
+                                            <span class="title">Information and Objectives:</span> <br>
+                                            <br>
+                                            Dalino Dental Clinic owned by Ms. Mercedita Batoc-Dalino. The
+                                            dental clinic concentrated on
+                                            providing good oral health care to avoid dental disorders,
+                                            increase general well-being, and develop
+                                            patients' confidence and comfort in their oral health, all of
+                                            which contribute to an improved quality
+                                            of life. Furthermore, delivered good treatment, dentists have
+                                            built long-term connections with patients
+                                            while maintaining their professional reputation in the
+                                            community.
+                                            <br>
+                                            <br>
+                                            The Objectives of this Website aims to integrate a functioning
+                                            website with admin portal,
+                                            customer portal, order placement, security through Gmail
+                                            verification, customer
+                                            order history, customer details, customer registration, database
+                                            management, inventory, sales and
+                                            earning generation, mode of payment through PayPal rest API,
+                                            Gcash QR code,
+                                            admin dashboard, and feedback.
+
+                                            <br>
+                                            <br>
+                                            <span class="title">Development Process:</span><br>
+                                            <br>
+                                            Project methodology used: Agile Methodology
+                                            <br>
+                                            <br>
+                                            A flexible and adaptive approach to software development
+                                            emphasizing customer satisfaction, <br>
+                                            iterative delivery, and quick response to change. Comprises
+                                            phases of Requirement Analysis, <br>
+                                            Designing and Coding, Testing, Release, and Feedback,
+                                            facilitating a swift and adaptable <br>
+                                            development process.
+
+                                            <span class="title">User interface / User Experience</span> <br>
+                                        </p>
+                                        <img src="./assets/images/dental clinic.png" alt="">
+
+                                        <p class="text-start" style="margin-top:10px;">
+                                            Click to see the prototype
+                                            <a href="https://www.figma.com/proto/GTYdEzj7aO3a8BpbfihasI/Untitled?node-id=23-619&t=6UfqkkJxtFUckhzt-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+                                                target="_blank"> Dalino Dental Clinic Website Prototype
+                                            </a>
+                                        </p>
+
+                                        <p class="text-center">
+                                            This is our the appreciation certificate from my end user/client
+                                            <br>
+                                            and the completion
+                                        </p>
+
+                                        <div class="row g-0">
+                                            <div class="col">
+                                                <img src="./assets/images/sanchez-cert.jpg" alt="">
+                                            </div>
+                                            <div class="col">
+                                                <img src="./assets/images/adrian-cert.jpg" alt="">
+                                            </div>
+                                            <div class="col">
+                                                <img src="./assets/images/melvin-cert.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <img src="./assets/images/capstone-bookbined.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 " id="web-card2">
+                <div class="card" style="width: 25rem;">
+                    <img src="./assets/images/yoo-naa-cover.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="text-start">Yoo-Naa is an Ecommerce website brings the business into the
+                            modern era with its unique fashion designs
+                            and serve countries within less than a decade.
+                        </p>
+                        <button type="button" id="web-button" class="btn btn-dark" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            See details
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Yoo-na Ecommerce
+                                            Website</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-start">
+                                            <span class="title">Back-end Developer:</span> Adrian Rodrigo
+                                            Makiling <br>
+                                            <span class="title">Front-end Developer:</span> Jezzyrel Sanchez
+                                            <br>
+                                            <span class="title"> Documents:</span> Melvin Lomboy
+                                        </p>
+
+                                        <p class="text-start"><span class="title">Tools Used:</span>
+                                        </p>
+                                        <div class="tools">
+
+                                        </div>
+
+                                        <p class="text-start" id="body-text">
+                                            <span class="title">Information and Objectives:</span> <br>
+                                            <br>
+                                            YOO-NAA is an online apparel store business that was established
+                                            on January 18, 2022, by <br>
+                                            Ms. Andrea Delgado. It is a fashion retailing brand with many
+                                            social media channels, including <br>
+                                            Facebook, where it has 17,000 followers. YOO-NAA connects
+                                            suppliers to their flexible chain through <br>
+                                            on-demand manufacturing technology, allowing them to reduce
+                                            inventory waste and deliver a <br>
+                                            diverse selection of products to their consumers at competitive
+                                            and cheap costs.
+                                            <br>
+                                            <br>
+                                            The Objectives of this Website aims to integrate a functioning
+                                            website with admin portal,<br>
+                                            customer portal, order placement, security through Gmail
+                                            verification, customer
+                                            order history, customer details, customer registration, database
+                                            management, inventory, sales and<br>
+                                            earning generation, mode of payment through PayPal rest API,
+                                            Gcash QR code, <br>
+                                            admin dashboard, and feedback.
+
+                                            <br>
+                                            <br>
+                                            <span class="title">Development Process:</span><br>
+                                            <br>
+                                            Project methodology used: Agile Methodology
+                                            <br>
+                                            <br>
+                                            A flexible and adaptive approach to software development
+                                            emphasizing customer satisfaction, <br>
+                                            iterative delivery, and quick response to change. Comprises
+                                            phases of Requirement Analysis, <br>
+                                            Designing and Coding, Testing, Release, and Feedback,
+                                            facilitating a swift and adaptable <br>
+                                            development process.
+                                            <br>
+                                            <span class="title">User interface / User Experience</span> <br>
+                                        </p>
+                                        <img src="./assets/images/yoo-naa.png" alt="">
+
+                                        <p class="text-start" style="margin-top:10px;">
+                                            Click to see the prototype
+                                            <a href="https://www.figma.com/proto/GTYdEzj7aO3a8BpbfihasI/Untitled?node-id=23-619&t=6UfqkkJxtFUckhzt-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+                                                target="_blank"> Yoo-na Website Prototype
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
 
     <div class="container-fluid p-0" id="projects">
         <p class="text-center" id="centerText">LET'S COLLABORATE AND COLOR YOUR IDEA'S</p>
@@ -1020,9 +716,6 @@
             </div>
         </div>
     </div>
-
-
-    <!--FOOTER-->
     <div class="logos">
         <div class="logos-slide">
             <img src="./assets/./images/./bxtra.png">
@@ -1045,8 +738,6 @@
             <p class="f-number">(+63) 976-377-0372 </p>
         </div>
     </div>
-
-
     <div class="footer">
         <div class="row" id="f-row">
             <div class="col" id="f-col">
@@ -1072,6 +763,8 @@
     </div>
 
 
+
+    <!-- Scroll up -->
     <script>
         // Get the button:
         let mybutton = document.getElementById("myBtn");
@@ -1096,18 +789,10 @@
         }
     </script>
 
-    <script src="../assets/js/script.js"></script>
-    <!-- ===== IONICONS ===== -->
-    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-    <!--===== MAIN JS =====-->
-    <script src="./assets/./js/./main.js"></script>
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <script src="../assets/js/script.js"></script>
+    <script src="./assets/./js/./main.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
         </script>
