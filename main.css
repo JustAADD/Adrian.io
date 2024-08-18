@@ -149,9 +149,14 @@
 }
 
 
+<<<<<<< HEAD
 #centerText,
 #centerText20,
 #centerText10 {
+=======
+
+#centerText {
+>>>>>>> 426bf97038a85f2e0d80824cd9c50e3ed8bf9f75
     font-family: var(--body-font);
     font-size: 80%;
     column-gap: 1;
@@ -160,9 +165,12 @@
     color: #686868;
     margin: 0;
 }
+<<<<<<< HEAD
 #centerText10{
     margin-top: 100px;
 }
+=======
+>>>>>>> 426bf97038a85f2e0d80824cd9c50e3ed8bf9f75
 
 #centerText2 {
     font-family: var(--body-font);
@@ -210,7 +218,11 @@
 #project {
     margin: 0 auto;
     width: 100%;
+<<<<<<< HEAD
     height: 100vh;
+=======
+    height: 80vh;
+>>>>>>> 426bf97038a85f2e0d80824cd9c50e3ed8bf9f75
 }
 
 /* WEBSITE CLIENTS */
@@ -430,7 +442,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
    
+=======
+>>>>>>> 426bf97038a85f2e0d80824cd9c50e3ed8bf9f75
 }
 
 #f-col {
@@ -489,4 +504,8 @@
 
 #myBtn:hover {
     background-color: #232323;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 426bf97038a85f2e0d80824cd9c50e3ed8bf9f75
