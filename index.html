@@ -18,7 +18,10 @@
 
             body {
                 width: 100%;
+            }
 
+            .header__logo {
+                text-decoration: none;
             }
 
             #home,
@@ -34,16 +37,44 @@
                 height: 10rem;
             }
 
+            .first-col {
+                order: 2;
+                margin: 0 auto;
+                padding: 5%;
+                font-size: 14px;
+            }
+
+            .image-wrapper::before {
+                /* display: none; */
+                top: 410px;
+
+            }
+
+
+            .second-col {
+                order: 1;
+                margin: 0 auto;
+                padding: 0;
+                width: 100%;
+                padding-top: 20%;
+                height: 40vh;
+            }
+
             #first-col {
                 text-align: center;
                 justify-content: center;
                 align-items: center;
             }
 
+            #name {
+                padding: 0;
+                margin: 0 auto;
+            }
+
             #name,
             #role,
             #role1 {
-                text-align: center;
+                text-align: start;
             }
 
             #name {
@@ -52,7 +83,7 @@
 
             #role {
                 font-size: 1.1em;
-                font-weight: bold;
+                font-weight: lighter;
             }
 
             #role1 {
@@ -63,8 +94,9 @@
             #role-btn {
                 font-size: 1em;
                 font-family: var(--body-font);
-                width: 30%;
+                width: 50%;
                 border-radius: 10px;
+                margin-top: 10px;
             }
 
             /* what ido */
@@ -72,7 +104,25 @@
             #about {
                 height: auto;
                 width: 100%;
+                margin: 0 auto;
+                padding: 0;
             }
+
+            #adjust {
+                margin-bottom: 20px;
+            }
+
+            #adjustment {
+                margin-top: 20px;
+                margin-bottom: 100px;
+            }
+
+            #card1,
+            #card2,
+            #card3 {
+                width: 23rem;
+            }
+
 
             #project {
                 height: 20vh;
@@ -94,9 +144,24 @@
             #tools {
 
                 margin: 0 auto;
+
                 padding: 0;
                 width: 100%;
-                height: 50%;
+                height: auto;
+            }
+
+            .rowing {
+                width: 100%;
+                height: 100vh;
+
+            }
+
+            #row-projects {
+                flex-direction: column;
+            }
+
+            #project-item {
+                margin-bottom: 1px;
             }
 
             #tech-row {
@@ -118,6 +183,7 @@
             #centerText20 {
                 padding-left: 30px;
                 padding-right: 30px;
+                padding-top: 10%;
             }
 
             #centerText10 {
@@ -190,7 +256,7 @@
             }
 
             #projects {
-                height: 35vh;
+                height: 230vh;
             }
 
             .section {
@@ -206,6 +272,29 @@
                 display: flex;
             }
 
+            #blog {
+                height: 110vh;
+                padding-top: 20%;
+            }
+
+            #blogstart {
+                display: none;
+            }
+
+            #blogtext1 {
+                text-align: center;
+            }
+
+            .blog-wrapper .img1 {
+                height: 20rem;
+                width: 12rem;
+            }
+
+            .blog-wrapper .img3 {
+                height: 20rem;
+                width: 12rem;
+
+            }
         }
     </style>
 </head>
@@ -221,12 +310,11 @@
 
         <nav class="nav" id="nav-menu">
             <div class="nav__content bd-grid">
-
                 <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
 
                 <div class="nav__perfil">
                     <div>
-                        <a href="#" class="nav__name">
+                        <a href="#home" class="nav__name">
                             <img src="./assets/./images/./AD.png" alt="" style="height:40px; width: 90px;">
                         </a>
                     </div>
@@ -235,35 +323,35 @@
                 <div class="nav__menu">
                     <div class="nav__listed">
                         <ul class="nav__list">
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#project">Project</a></li>
-                            <li><a href="#about">About Me</a></li>
+                            <li><a href="#home" class="nav__link">Home</a></li>
+                            <li><a href="#project" class="nav__link">Project</a></li>
+                            <li><a href="#blog" class="nav__link">About Me</a></li>
                             <li><a href="https://drive.google.com/drive/folders/1hPGXbu3hpDvAp5_QfDZlzfTZgKiItfZ8?usp=sharing"
-                                    target="_blank">CV</a></li>
+                                    class="nav__link" target="_blank">CV</a></li>
                         </ul>
                     </div>
                 </div>
-
-
             </div>
         </nav>
     </header>
 
 
+
     <!-- Home -->
     <div class="container-fluid p-0" id="home">
         <div class="row g-2" id="hero-image">
-            <div class="col-md-6" id="first-col">
+            <div class="col-md-6 first-col" id="first-col">
                 <div class="p-2">
                     <p class="text" id="name">Adrian Rodrigo Makiling</p>
-                    <p class="text" id="role">Website Developer / Graphic Designer / UI, UX Designer</p>
-                    <p class="text" id="role1">Hi. I am Adrian Rodrigo Makiling, a dedicated Website Programmer,
-                        UI/UX Designer and a Graphic Designer.
+                    <p class="text" id="role">Website Developer / Graphic Designer / UI/UX Designer</p>
+                    <p class="text" id="role1">Hi. I'm Adrian Rodrigo Makiling, a dedicated professional
+                        with expertise in Website Development,
+                        UI/UX Design and Graphic Design.
                     </p>
-                    <a href="" class="btn btn-dark" id="role-btn">WHO AM I</a>
+                    <a href="#blog" class="btn btn-dark" id="role-btn">WHO AM I</a>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 second-col">
                 <div class="p-2">
                     <div class="image-wrapper">
                         <img class="img1" src="./assets/images/cover123.jpg" alt="" />
@@ -283,7 +371,7 @@
                 <p class="text-center" id="centerText2">WHAT I DO</p>
             </div>
             <div class="col g-0" id="adjust">
-                <div class="card text-center">
+                <div class="card text-center" id="card1">
                     <div class="card-body d-flex flex-column align-items-center">
                         <img src="./assets/./images//web-design.png" alt="icon" style="height:90px; width: 90px;">
                         <h5 class="card-title">GRAPHIC DESIGN</h5>
@@ -295,7 +383,7 @@
                 </div>
             </div>
             <div class="col g-0">
-                <div class="card text-center">
+                <div class="card text-center" id="card2">
                     <div class="card-body d-flex flex-column align-items-center">
                         <img src="./assets/./images//design.png" alt="icon" style="height:90px; width: 90px;">
                         <h5 class="card-title">WEBSITE DESIGN</h5>
@@ -307,7 +395,7 @@
                 </div>
             </div>
             <div class="col g-0" id="adjustment">
-                <div class="card text-center">
+                <div class="card text-center" id="card3">
                     <div class="card-body d-flex flex-column align-items-center">
                         <img src="./assets/./images//web-programming.png" alt="icon" style="height:90px; width: 90px;">
                         <h5 class="card-title">WEBSITE DEVELOPMENT</h5>
@@ -317,6 +405,36 @@
 
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BLOG ABOUT ME -->
+    <!-- <div class="mb-5" id="blogstart"></div> -->
+    <div class="container-fluid" id="blog">
+        <div class="row g-0">
+            <div class="col-md-6" id="blog-col1">
+                <div class="blog-wrapper">
+                    <img class="img1" src="./assets/images/photo_2024-08-20_09-04-23.jpg" alt="" />
+                    <!-- <img class="img2" src="./assets/images/photo_2024-08-20_09-04-23 (3).jpg" alt="" /> -->
+                    <img class="img3" src="./assets/images/photo_2024-08-20_09-04-23 (2).jpg" alt="" />
+                </div>
+            </div>
+            <div class="col-md-6" id="blog-col">
+                <p class="text-start" id="centerText2">A BLOG ABOUT ME</p>
+                <p class="text" id="blogtext1">Adrian is a 24 years old a dedicated Website developer, UI/UX Designer
+                    and Graphic Designer based in Pasig, Philippines.
+                    <br><br>
+                    His work revolves around building brands, creating and providing Product Designs and Graphic Designs
+                    for small to large-sized of businesses.With almost 3 years of hands-on experience in creating
+                    user-friendly digital experience, and user's overall experience with the product or website
+                    development.
+                    <br><br>
+                    His passionate to serves and delivering Best-Quality Results contributes to drive innovation and
+                    have an impact on digital experiences and meet overall user satisfactions. He is eager to pursue
+                    career growth and embrance new challeges, particularly in UI/UX design and web development.
+
+                </p>
             </div>
         </div>
     </div>
@@ -416,13 +534,6 @@
                         <span class="text">Lucid Chart</span>
                     </div>
                 </div>
-                <div class="col-3" id="tech-hover">
-                    <div class="p-2 border" id="tech-col">
-                        <img src="./assets/icons/GSAP.svg" alt="GSAP Animation" style="width: auto; height:100%;">
-                        <span class="text">GSAP Animation</span>
-                    </div>
-                </div>
-
                 <div class="col-2" id="tech-hover">
                     <div class="p-2 border" id="tech-col">
                         <img src="./assets/icons/ionic-icon.svg" alt="Ionicon" style="width: auto; height:100%;">
@@ -470,7 +581,7 @@
 
     <!-- carousel -->
 
-    <div class="container-fluid p-0" id="project">
+    <!-- <div class="container-fluid p-0" id="project">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -524,7 +635,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div>
+    </div> -->
 
 
     <!-- Website Client -->
@@ -760,30 +871,104 @@
             <div class="row align-items-center" id="row-projects">
                 <div class="col project-item">
                     <div class="project-content">
-                        <img src="./assets//images//cz-cover.jpg" alt="">
-                        <div class="project-info">
-                            <h3>Comfort Zone</h3>
-                            <p>Local brand Design</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col project-item">
-                    <div class="project-content">
                         <img src="./assets//images//wbc-cover.jpg" alt="">
                         <div class="project-info">
                             <h3>Winner Boys Club</h3>
                             <p>Local brand Design</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                view project
+                            </button>
+                        </div>
 
+                        <div class="modal fade" id="exampleModal" tabindex="0" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Winner Boys Club</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="col project-item">
                     <div class="project-content">
                         <img src="./assets//images//pdy-cover.jpeg" alt="">
                         <div class="project-info">
-                            <h3>Payday Club</h3>
+                            <h3>Payday.ph Club</h3>
                             <p>Payday Result Posting</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal1">
+                                view project
+                            </button>
 
+                            <!-- Modal -->
+                        </div>
+
+                        <div class="modal fade" id="exampleModal1" tabindex="0" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Payday.ph Club</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col project-item">
+                    <div class="project-content">
+                        <img src="./assets//images//parkdev-cover.jpg" alt="">
+                        <div class="project-info">
+                            <h3>Park Developer</h3>
+                            <p>UI Design</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal2">
+                                view project
+                            </button>
+                        </div>
+
+                        <div class="modal fade" id="exampleModal2" tabindex="0" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Park Developer Website Design
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -791,10 +976,32 @@
                     <div class="project-content">
                         <img src="./assets//images//parkdev-cover.jpg" alt="">
                         <div class="project-info">
-                            <h3>Park Developer Inc</h3>
-                            <p>User Interface of the site</p>
-
+                            <h3>Logo's</h3>
+                            <p>Logo Design</p>
+                            <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal3">
+                                view project
+                            </button>
                         </div>
+                        <div class="modal fade" id="exampleModal3" tabindex="0" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Logo's Design
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -832,10 +1039,11 @@
                 <div class="nav__listed">
                     <ul class="nav__listid">
                         <li class="f-nav__social">
-                            <a href="www.linkedin.com/in/adrian-makiling-74477928b"><ion-icon name="logo-linkedin"></ion-icon></a>
+                            <a href="www.linkedin.com/in/adrian-makiling-74477928b"><ion-icon
+                                    name="logo-linkedin"></ion-icon></a>
                         </li>
                         <li class="f-nav__social">
-                             <a href="https://github.com/JustAADD"><ion-icon name="logo-github"></ion-icon></a>
+                            <a href="https://github.com/JustAADD"><ion-icon name="logo-github"></ion-icon></a>
                         </li>
                         <li class="f-nav__social">
                             <a href="mailto:makilingadrian19@gmail.com"><ion-icon name="mail-outline"></ion-icon></a>
@@ -871,6 +1079,23 @@
             document.body.scrollTop = 0; // For Safari
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
+
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleButton = document.querySelector('.nav__toggle');
+            const menu = document.querySelector('.nav__listed');
+
+            if (toggleButton && menu) {
+                toggleButton.addEventListener('click', () => {
+                    // Toggle menu visibility
+                    menu.classList.toggle('nav__listed--active');
+                });
+            }
+        });
+
+
     </script>
 
 
