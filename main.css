@@ -422,6 +422,11 @@
     background-color: #ecf3fe;
 }
 
+.modal-body img{
+    transition: transform 0s;
+    transform: none;
+}
+
 #projects .col {
     padding: 0 15px;
     margin: 0;
