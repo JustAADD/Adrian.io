@@ -332,47 +332,6 @@
     caret-color: transparent;
 }
 
-/* PROJECTS */
-
-#project {
-    margin: 0 auto;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    z-index: 1;
-    caret-color: transparent;
-}
-
-.carousel {
-    width: 100%;
-    overflow: hidden;
-}
-
-.carousel-item img {
-    width: 100%;
-    height: auto;
-}
-
-/* WEBSITE CLIENTS */
-
-/* #web {
-    margin: 0 auto;
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    color: var(--dark-color-alt);
-    justify-content: center;
-    align-items: center;
-}
-
-#web-button {
-    width: 10rem;
-    height: 40px;
-    text-align: center;
-    margin: 0 auto;
-    border-radius: 10px;
-} */
-
 
 #tools {
     max-width: 100%;
@@ -452,7 +411,7 @@
 
 #projects {
     max-width: 100%;
-    height: 90vh;
+    height: 150vh;
     /* margin-top: 10%; */
     justify-content: center;
     align-items: center;
