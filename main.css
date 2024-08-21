@@ -419,6 +419,7 @@
     overflow-x: hidden;
     overflow-y: hidden;
     caret-color: transparent;
+    background-color: #ecf3fe;
 }
 
 #projects .col {
