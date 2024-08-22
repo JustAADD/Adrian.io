@@ -415,8 +415,19 @@
 
     }
 
+    .nav__menu,
+    .nav__listed {
+        height: 100vh;
+        padding: 10px;
+        padding-top: 6%;
+    }
+
+    .nav__list li {
+        font-size: 20px;
+    }
+
     #home {
-        height: 150vh;
+        height: 100vh;
         background-color: #ecf3fe;
     }
 
@@ -426,15 +437,32 @@
         font-weight: bold;
     }
 
+
+
     .first-col {
         order: 2;
         margin: 0 auto;
-        padding: 0;
-        font-size: 14px;
+        padding: 5%;
+        font-size: 20px;
         text-align: center;
-        display: center;
+
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    #name {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #role-btn {
+        width: 200px;
+        height: 50px;
         justify-content: center;
         align-items: center;
+        margin: 0 auto;
+        display: flex;
     }
 
     .p-2 p {
@@ -457,12 +485,14 @@
 
     #about,
     #whoiam {
-        height: 73rem;
+        height: 110vh;
+        padding: 5%;
+        margin: 0 auto;
     }
 
-    #centerText {
+    /* #centerText {
         padding-top: 15%;
-    }
+    } */
 
     #blog {
         height: 155vh;
@@ -487,6 +517,663 @@
 
     #centerText2 {
         text-align: center;
-        
+    }
+
+    .textto {
+        padding-top: 10%;
+    }
+
+
+    #tools,
+    .technologies {
+        margin: 0 auto;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        height: 100vh;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    #tech-row {
+        margin: 0 auto;
+        padding: 0;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    #row-projects {
+        flex-direction: column;
+    }
+
+    .project-info {
+        height: 25rem;
+        width: 15rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    #projects .project-info h3 {
+        height: auto;
+        font-size: 40px;
+    }
+
+    #projects .project-info p {
+        height: auto;
+        font-size: 20px;
+    }
+
+    #projects .project-info button {
+        height: auto;
+        font-size: 20px;
+        width: 200px;
+        height: 70px;
+        font-size: 25px;
+    }
+
+    .nav__listeed {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .nav__listid {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        list-style-type: none;
+
+    }
+
+    #f-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+    }
+
+    #f-col {
+        flex: 1;
+        padding: 0 10px;
+    }
+
+    #f-col ion-icon {
+        color: var(--white-color);
+        width: 15px;
+
+    }
+
+    #f-col ion-icon {
+        color: var(--white-color);
+        width: 15px;
+    }
+
+    .section {
+        margin: 0 auto;
+        margin-left: 5%;
+    }
+
+    .f-nav__social {
+
+        margin: 0 auto;
+        padding: 0;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .header {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+    }
+
+    .nav__menu,
+    .nav__listed {
+        height: 100vh;
+        padding: 10px;
+        padding-top: 6%;
+    }
+
+    .nav__list li {
+        font-size: 20px;
+    }
+
+    #home {
+        height: 120vh;
+        background-color: #ecf3fe;
+    }
+
+
+    .header__logo {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .second-col {
+        padding: 10%;
+    }
+
+
+    .first-col {
+        order: 2;
+        margin: 0 auto;
+        padding: 5%;
+        font-size: 20px;
+        text-align: center;
+
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    #name {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #role-btn {
+        width: 200px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .p-2 p {
+        text-align: center;
+        display: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #name,
+    #role,
+    #role1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .image-wrapper::before {
+        top: 420px;
+
+    }
+
+    #about,
+    #whoiam {
+        height: auto;
+        padding: 15%;
+        margin: 0 auto;
+
+
+    }
+
+
+    #blog {
+        height: 155vh;
+    }
+
+    #blog-col1,
+    #blog-col {
+        padding: 10%;
+    }
+
+    #blog-col {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        display: center;
+    }
+
+    #blog-col p {
+        text-align: center;
+    }
+
+    #blogtext1 {
+        font-size: 16px;
+    }
+
+    #centerText2 {
+        text-align: center;
+    }
+
+
+
+    .textto {
+        padding-bottom: 10%;
+        margin: 0 auto;
+    }
+
+    #card1,
+    #card2,
+    #card3 {
+        width: 700px;
+        height: 300px;
+    }
+
+    #card1 h5,
+    #card2 h5,
+    #card3 h5 {
+        font-size: 25px;
+    }
+
+    #card1 p,
+    #card2 p,
+    #card3 p {
+        font-size: 15px;
+    }
+
+
+    #tools,
+    .technologies {
+        margin: 0 auto;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        height: 100vh;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    #tech-row {
+        margin: 0 auto;
+        padding: 0;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    #row-projects {
+        flex-direction: column;
+    }
+
+    .project-info {
+        height: 25rem;
+        width: 15rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    #projects .project-info h3 {
+        height: auto;
+        font-size: 40px;
+    }
+
+    #projects .project-info p {
+        height: auto;
+        font-size: 20px;
+    }
+
+    #projects .project-info button {
+        height: auto;
+        font-size: 20px;
+        width: 200px;
+        height: 70px;
+        font-size: 25px;
+    }
+
+    .nav__listeed {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .nav__listid {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        list-style-type: none;
+
+    }
+
+    #f-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+    }
+
+    #f-col {
+        flex: 1;
+        padding: 0 10px;
+    }
+
+    #f-col ion-icon {
+        color: var(--white-color);
+        width: 15px;
+
+    }
+
+    #f-col ion-icon {
+        color: var(--white-color);
+        width: 15px;
+    }
+
+    .section {
+        margin: 0 auto;
+        margin-left: 5%;
+    }
+
+    .f-nav__social {
+
+        margin: 0 auto;
+        padding: 0;
+    }
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 578px) {
+
+    body {
+        width: 100%;
+    }
+
+    .header__logo {
+        text-decoration: none;
+    }
+
+    #home,
+    #hero-image {
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .image-wrapper img {
+        width: 180px;
+        height: 10rem;
+    }
+
+    .first-col {
+        order: 2;
+        margin: 0 auto;
+        padding: 5%;
+        font-size: 14px;
+    }
+
+    .image-wrapper::before {
+        /* display: none; */
+        top: 410px;
+
+    }
+
+
+    .second-col {
+        order: 1;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        padding-top: 20%;
+        height: 40vh;
+    }
+
+    #first-col {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #name {
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 15%;
+    }
+
+    #name,
+    #role,
+    #role1 {
+        text-align: start;
+    }
+
+    #name {
+        font-size: 1.9em;
+    }
+
+    #role {
+        font-size: 1.1em;
+        font-weight: lighter;
+    }
+
+    #role1 {
+        font-size: 1.1em;
+        font-weight: lighter;
+    }
+
+    #role-btn {
+        font-size: 1em;
+        font-family: var(--body-font);
+        width: 50%;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    /* what ido */
+    #whoiam,
+    #about {
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #adjust {
+        margin-bottom: 20px;
+    }
+
+    #adjustment {
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+
+    #card1,
+    #card2,
+    #card3 {
+        width: 23rem;
+    }
+
+    #web,
+    #web-row {
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    #web-card2 {
+        margin-top: 9rem;
+    }
+
+    #tools {
+
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .rowing {
+        width: 100%;
+        height: 217vh;
+
+    }
+
+    #row-projects {
+        flex-direction: column;
+    }
+
+    #project-item {
+        margin-bottom: 1px;
+    }
+
+    #tech-row {
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+    }
+
+    #centerText20 {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10%;
+    }
+
+    #centerText10 {
+        margin-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #tech-row {
+
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        height: 50%;
+    }
+
+    #tech-hover {
+        width: 150px;
+    }
+
+    .section {
+        margin: 0 auto;
+        padding: 10%;
+    }
+
+
+
+    #f-row {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    #f-col {
+        flex: none;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+
+    }
+
+    .f-nav__social-icons ion-icon {
+        color: #fff;
+    }
+
+    .f-contact {
+        font-weight: normal;
+    }
+
+    .f-name,
+    .f-email,
+    .f-number {
+        margin-bottom: 5px;
+        /* Adjust spacing between paragraphs */
+        caret-color: transparent;
+    }
+
+    .nav__listid {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        margin-top: 10px;
+    }
+
+    .f-nav__social {
+        margin: 0 10px;
+    }
+
+    #f-col ion-icon {
+        width: 20px;
+        /* Increase size for better touch targets */
+    }
+
+    #rowing2 {
+        padding-top: 10%;
+    }
+
+
+    .footer {
+        height: 7rem;
+    }
+
+    #tech-row {
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+    }
+
+    #projects {
+        height: 458vh;
+    }
+
+    .section {
+        margin: 0 auto;
+        padding: 10%;
+    }
+
+
+
+    #f-col {
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+    }
+
+    #blog {
+        height: 110vh;
+        padding-top: 20%;
+    }
+
+    #blogstart {
+        display: none;
+    }
+
+    #blogtext1 {
+        text-align: center;
+    }
+
+    .blog-wrapper .img1 {
+        height: 20rem;
+        width: 12rem;
+    }
+
+    #blog-col p {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog-wrapper .img3 {
+        height: 20rem;
+        width: 12rem;
+    }
+
+    #centerText2 {
+        margin-top: 25px;
+        font-size: 2em;
+        text-align: center;
     }
 }
