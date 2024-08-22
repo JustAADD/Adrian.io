@@ -882,70 +882,138 @@
 
 @media screen and (min-width: 400px) and (max-width: 578px) {
 
+
+    .header {
+        height: 20vh;
+        padding: 50px;
+        caret-color: transparent;
+    }
+
+    .header__logo {
+        font-size: 30px;
+        caret-color: transparent;
+    }
+
+    .header__toggle {
+        font-size: 3.5rem;
+    }
+
+    #nav-menu {
+        height: 100%;
+        overflow: hidden;
+
+    }
+
+    .nav__perfil {
+        height: 15vh;
+        padding: 5%;
+        caret-color: transparent;
+    }
+
+    .nav__perfil img {
+        width: 100px;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+    .nav__close {
+        font-size: 50px;
+        margin-top: 3%;
+        margin-right: 3%;
+    }
+
+    .nav__menu {
+        height: 100%;
+    }
+
+    .nav__list a {
+        font-size: 35px;
+    }
+
     body {
-        width: 100%;
+        width: auto;
     }
 
     .header__logo {
         text-decoration: none;
     }
 
-    #home,
+    /* #home,
     #hero-image {
         width: 100%;
         overflow: hidden;
         margin: 0;
         padding: 10px;
+    } */
+
+    #home {
+        width: 200%;
+        height: 200vh;
+    }
+
+    #hero-image {
+        height: 200vh;
+
     }
 
     .image-wrapper img {
         width: 180px;
-        height: 10rem;
+    }
+
+    .image-wrapper .img1,
+    .image-wrapper .img2,
+    .image-wrapper .img3 {
+        height: 30rem;
     }
 
     .first-col {
         order: 2;
-        margin: 0 auto;
-        padding: 5%;
-        font-size: 14px;
+        font-size: 30px;
     }
 
     .image-wrapper::before {
         /* display: none; */
-        top: 410px;
+        top: 740px;
 
     }
+
+    .image-wrapper img {
+        width: 290px;
+        height: 450px;
+    }
+
 
 
     .second-col {
         order: 1;
         margin: 0 auto;
         padding: 0;
-        width: 100%;
-        padding-top: 20%;
-        height: 40vh;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 60%;
     }
 
     #first-col {
         text-align: center;
         justify-content: center;
         align-items: center;
-    }
-
-    #name {
+        margin: 0;
         padding: 0;
-        margin: 0 auto;
-        margin-top: 15%;
     }
 
     #name,
     #role,
     #role1 {
-        text-align: start;
+        text-align: center;
     }
 
     #name {
         font-size: 1.9em;
+        margin-top: -20%;
     }
 
     #role {
@@ -961,19 +1029,23 @@
     #role-btn {
         font-size: 1em;
         font-family: var(--body-font);
-        width: 50%;
+        width: 40%;
+        height: 80px;
         border-radius: 10px;
-        margin-top: 10px;
+        margin-top: 50px;
     }
+
 
     /* what ido */
     #whoiam,
     #about {
-        height: auto;
-        width: 100%;
+        height: 150%;
+        width: 200%;
         margin: 0 auto;
-        padding: 0;
+        padding: 10%;
+        display: flex;
     }
+
 
     #adjust {
         margin-bottom: 20px;
@@ -987,8 +1059,32 @@
     #card1,
     #card2,
     #card3 {
-        width: 23rem;
+        width: 60rem;
+        height: 40rem;
     }
+
+    #card1 img {
+        height: 160px;
+        width: 160px;
+    }
+
+
+
+    #card1 h5 {
+        font-size: 50px;
+    }
+
+    #card1 p {
+        font-size: 35px;
+    }
+
+    .card-body {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+
 
     #web,
     #web-row {
@@ -1173,7 +1269,11 @@
 
     #centerText2 {
         margin-top: 25px;
-        font-size: 2em;
+        font-size: 5em;
         text-align: center;
+    }
+
+    #centerText {
+        font-size: 30px;
     }
 }

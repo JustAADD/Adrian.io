@@ -29,6 +29,13 @@
     /* Initially hidden */
 }
 
+.nav__perfil img {
+    width: 100px;
+    /* Default width */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
 .nav.show {
     display: block;
     /* Display when the 'show' class is added */
@@ -213,6 +220,12 @@
     padding-bottom: 15%;
     caret-color: transparent;
 }
+
+.card-body img {
+    height: 90px;
+    width: 90px;
+}
+
 
 .textto {
     height: 20%;
@@ -422,7 +435,7 @@
     background-color: #ecf3fe;
 }
 
-.modal-body img{
+.modal-body img {
     transition: transform 0s;
     transform: none;
 }
