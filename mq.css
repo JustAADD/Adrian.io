@@ -1,0 +1,492 @@
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    .nav__list li {
+        margin-inline: -2px;
+        caret-color: none;
+    }
+
+    .nav__menu {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        caret-color: none;
+    }
+
+    .nav__listed,
+    .nav__list {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+    }
+
+    .image-wrapper::before {
+        top: 480px;
+
+    }
+
+    #hero-image {
+        height: 100vh;
+    }
+
+    .first-col,
+    .second-col {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    #name {
+        margin-top: -5px;
+    }
+
+    #about {
+        height: 100vh;
+    }
+
+    #whoiam {
+        margin: 0 auto;
+        padding: 10%;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .technologies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .centerText20 {
+        margin-top: 10px;
+    }
+
+    .project-info {
+        height: 25rem;
+        width: 15rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    #tech-row {
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+
+    .header {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    }
+
+    .first-col,
+    .second-col {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    #tech-row {
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+    }
+
+    #role-btn {
+        width: 120px;
+    }
+
+    #about {
+        height: 110vh;
+
+    }
+
+    #whoiam {
+        height: 100vh;
+        margin: 0 auto;
+        padding: 5%;
+    }
+
+    #blog {
+        height: 110vh;
+
+    }
+
+    #projects {
+        height: auto;
+    }
+
+
+    .nav__list li {
+        margin-inline: -1px;
+        caret-color: none;
+    }
+
+    .nav__menu {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        caret-color: none;
+
+    }
+
+    .nav__listed,
+    .nav__list {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #hero-image {
+        padding: 8%;
+        margin: 0 auto;
+    }
+
+    .first-col {
+        font-size: 15px;
+    }
+
+    .image-wrapper img {
+        width: 180px;
+    }
+
+    .nav__content {
+
+        row-gap: 1rem;
+        width: 90%;
+    }
+
+    .project-info {
+        height: 25rem;
+        width: 15rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    #tech-row {
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+
+    #hero-image {
+        padding: 4%;
+    }
+
+    .image-wrapper img {
+        width: 160px;
+    }
+
+    #blog-col {}
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+    .nav__list li {
+        margin-inline: -2px;
+        caret-color: none;
+    }
+
+    .nav__menu {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        caret-color: none;
+    }
+
+    .nav__listed,
+    .nav__list {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .header {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+        height: 12%;
+    }
+
+    .first-col,
+    .second-col {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    #role-btn {
+        width: 120px;
+    }
+
+    .p-2 {
+        font-size: 13px;
+    }
+
+    #name {
+        font-size: 25px;
+    }
+
+    #about {
+        height: 170vh;
+    }
+
+    .textto {
+        padding: 20%;
+    }
+
+    #blog {
+        height: 110vh;
+    }
+
+    #blog-col1 {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    #centerText2 {
+        font-size: 30px;
+    }
+
+    #blogtext1 {
+        font-size: 13px;
+    }
+
+    .blog-wrapper img {
+        width: 150px;
+    }
+
+    .blog-wrapper .img1 {
+        height: 17rem;
+        width: 12rem;
+
+    }
+
+    .blog-wrapper .img3 {
+        height: 20rem;
+        width: 12rem;
+
+    }
+
+    #tools {
+        height: 110vh;
+    }
+
+    .technologies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    #tech-row {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    .project-info {
+        height: 25rem;
+        width: 15rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+
+    }
+
+    .project-info button {
+        width: 110px;
+        font-size: 13px;
+        height: 40px;
+    }
+
+    #projects {
+        height: auto;
+    }
+
+}
+
+
+@media screen and (min-width: 760px) and (max-width: 800px) {
+
+    #hero-image {
+        padding: 4%;
+    }
+
+    .first-col,
+    .second-col {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .image-wrapper img {
+        width: 150px;
+    }
+
+    #about {
+        height: 73rem;
+    }
+
+    .blog-wrapper img {
+        width: 100px;
+    }
+
+    .blog-wrapper .img1 {
+        height: 15rem;
+        width: 10rem;
+
+    }
+
+    .blog-wrapper .img3 {
+        height: 17rem;
+        width: 10rem;
+
+    }
+
+    #tech-row {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    #tools {
+        margin: 0 auto;
+        padding: 5%;
+    }
+
+    .section {
+        margin: 0 auto;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 760px) {
+    .header {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+    }
+
+    #home {
+        height: 150vh;
+        background-color: #ecf3fe;
+    }
+
+
+    .header__logo {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .first-col {
+        order: 2;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 14px;
+        text-align: center;
+        display: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p-2 p {
+        text-align: center;
+        display: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #name,
+    #role,
+    #role1 {
+        text-align: center;
+    }
+
+    .image-wrapper::before {
+        top: 400px;
+
+    }
+
+    #about,
+    #whoiam {
+        height: 73rem;
+    }
+
+    #centerText {
+        padding-top: 15%;
+    }
+
+    #blog {
+        height: 155vh;
+    }
+
+    #blog-col1,
+    #blog-col {
+        padding: 10%;
+    }
+
+    #blog-col {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        display: center;
+    }
+
+    #blog-col p {
+        text-align: center;
+    }
+
+    #centerText2 {
+        text-align: center;
+        
+    }
+}
