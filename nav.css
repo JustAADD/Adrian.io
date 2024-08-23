@@ -170,6 +170,11 @@ width: 46px;
      color: var(--dark-color);
  }
 
+ .nav__name img {
+     height: 40px;
+     width: 90px;
+ }
+
  .nav__profesion {
      font-size: var(--small-font-size);
  }
@@ -309,10 +314,10 @@ color: var(--first-color);
      }
 
      .nav__listid {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+     }
 
      .nav__item {
          margin: 0 .25rem;

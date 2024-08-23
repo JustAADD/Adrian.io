@@ -1605,53 +1605,66 @@
     }
 
     .header {
-        height: 20vh;
+        height: 30vh;
         padding: 50px;
         caret-color: transparent;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     }
 
     .header__logo {
-        font-size: 30px;
+        font-size: 50px;
         caret-color: transparent;
+        font-weight: bold;
     }
 
     .header__toggle {
-        font-size: 3.5rem;
+        font-size: 5.9rem;
     }
 
     #nav-menu {
         height: 100%;
         overflow: hidden;
-
     }
 
+
+
     .nav__perfil {
-        height: 15vh;
+        height: auto;
         padding: 5%;
         caret-color: transparent;
     }
 
-    .nav__perfil img {
-        width: 100px;
+    .nav__name img {
+        width: 280px;
         height: auto;
         margin: 0 auto;
         padding: 0;
     }
 
-
     .nav__close {
-        font-size: 50px;
-        margin-top: 3%;
+        font-size: 80px;
+        margin-top: 4%;
         margin-right: 3%;
+    }
+
+    .nav__list {
+        padding-top: 15%;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+    }
+
+    .nav__list a {
+        font-size: 75px;
+        padding: 5%;
     }
 
     .nav__menu {
         height: 100%;
-    }
 
-    .nav__list a {
-        font-size: 35px;
     }
 
     .header__logo {
