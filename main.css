@@ -384,6 +384,11 @@
     caret-color: transparent;
 }
 
+#tech-col img {
+    height: 200%;
+    width: auto;
+}
+
 
 
 #tech-hover :hover {
