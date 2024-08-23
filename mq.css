@@ -2401,24 +2401,30 @@
         width: 39rem;
     }
 
+    .section {
+        margin: 0 auto;
+        padding: 5%;
+    }
+
     .logos {
-        width: auto;
+        width: 152vh;
         height: 25rem;
         display: flex;
         margin: 0 auto;
         justify-content: center;
         align-items: center;
+        padding: 0;
     }
 
     .logos-slide {
-        height: 20rem;
-        width: 200%;
+        height: auto;
+        width: 100%;
+        margin-right: 10px;
+        padding: 0;
+        margin: 0 auto;
 
     }
 
-    .logos-slide img {
-        width: auto;
-    }
 
     #f-col {
         margin: 0 auto;
