@@ -44,10 +44,11 @@
 .logos-slide {
     display: inline-block;
     animation: 35s slide infinite linear;
+    display: flex;
 }
 
 .logos-slide img {
-    height: 110px;
+    height: auto;
     width: 18rem;
     margin: 0 40px;
 }

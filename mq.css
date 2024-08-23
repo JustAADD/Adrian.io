@@ -83,7 +83,7 @@
 
     }
 
-    #projects {
+    #proj {
         height: auto;
     }
 
@@ -134,7 +134,7 @@
 
     }
 
-    #projects {
+    #proj {
         height: auto;
     }
 
@@ -190,7 +190,7 @@
 
     }
 
-    #projects {
+    #proj {
         height: auto;
     }
 
@@ -304,7 +304,7 @@
 
     }
 
-    #tools {
+    #tooling {
         height: 110vh;
     }
 
@@ -322,7 +322,7 @@
         padding: 0;
     }
 
-    #projects {
+    #proj {
         height: auto;
     }
 
@@ -344,7 +344,7 @@
         height: 40px;
     }
 
-    #projects {
+    #proj {
         height: auto;
     }
 
@@ -398,7 +398,7 @@
         font-size: 12px;
     }
 
-    #tools {
+    #tooling {
         margin: 0 auto;
         padding: 5%;
     }
@@ -524,7 +524,7 @@
     }
 
 
-    #tools,
+    #tooling,
     .technologies {
         margin: 0 auto;
         padding: 0;
@@ -543,7 +543,7 @@
         font-size: 13px;
     }
 
-    #projects {
+    #proj {
         height: auto;
     }
 
@@ -562,17 +562,17 @@
         height: 100%;
     }
 
-    #projects .project-info h3 {
+    #proj .project-info h3 {
         height: auto;
         font-size: 40px;
     }
 
-    #projects .project-info p {
+    #proj .project-info p {
         height: auto;
         font-size: 20px;
     }
 
-    #projects .project-info button {
+    #proj .project-info button {
         height: auto;
         font-size: 20px;
         width: 200px;
@@ -774,7 +774,7 @@
     }
 
 
-    #tools,
+    #tooling,
     .technologies {
         margin: 0 auto;
         padding: 0;
@@ -793,7 +793,7 @@
         font-size: 13px;
     }
 
-    #projects {
+    #proj {
         height: auto;
     }
 
@@ -812,17 +812,17 @@
         height: 100%;
     }
 
-    #projects .project-info h3 {
+    #proj .project-info h3 {
         height: auto;
         font-size: 40px;
     }
 
-    #projects .project-info p {
+    #proj .project-info p {
         height: auto;
         font-size: 20px;
     }
 
-    #projects .project-info button {
+    #proj .project-info button {
         height: auto;
         font-size: 20px;
         width: 200px;
@@ -880,8 +880,19 @@
 
 }
 
-@media screen and (min-width: 400px) and (max-width: 578px) {
+@media screen and (max-width: 578px) {
 
+    body {
+        max-width: 100vw;
+        width: 100vw;
+        height: auto;
+    }
+
+    .html {
+        max-width: 100vw;
+        width: 100vw;
+        height: auto;
+    }
 
     .header {
         height: 20vh;
@@ -932,29 +943,18 @@
         font-size: 35px;
     }
 
-    body {
-        width: auto;
-    }
-
     .header__logo {
         text-decoration: none;
     }
 
-    /* #home,
-    #hero-image {
-        width: 100%;
-        overflow: hidden;
-        margin: 0;
-        padding: 10px;
-    } */
-
     #home {
-        width: 200%;
+        width: 152vh;
         height: 200vh;
     }
 
     #hero-image {
         height: 200vh;
+        overflow: hidden;
 
     }
 
@@ -1040,12 +1040,16 @@
     #whoiam,
     #about {
         height: 150%;
-        width: 200%;
+        width: 152vh;
         margin: 0 auto;
         padding: 10%;
         display: flex;
+        overflow: hidden;
     }
 
+    #centerText {
+        font-size: 30px;
+    }
 
     #adjust {
         margin-bottom: 20px;
@@ -1063,20 +1067,26 @@
         height: 40rem;
     }
 
-    #card1 img {
+    #card1 img,
+    #card2 img,
+    #card3 img {
         height: 160px;
         width: 160px;
     }
 
-
-
-    #card1 h5 {
+    #card1 h5,
+    #card2 h5,
+    #card3 h5 {
         font-size: 50px;
     }
 
-    #card1 p {
+    #card1 p,
+    #card2 p,
+    #card3 p {
         font-size: 35px;
     }
+
+
 
     .card-body {
         margin: 0 auto;
@@ -1098,67 +1108,135 @@
         margin-top: 9rem;
     }
 
-    #tools {
 
-        margin: 0 auto;
+    /* blogging */
+    #blog {
+        height: auto;
+        width: 152vh;
+    }
+
+    #blogstart {
+        display: none;
+    }
+
+    #blogtext1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #blog-col1 {
         padding: 0;
-        width: 100%;
-        height: 100vh;
-    }
-
-    .rowing {
-        width: 100%;
-        height: 217vh;
-
-    }
-
-    #row-projects {
-        flex-direction: column;
-    }
-
-    #project-item {
-        margin-bottom: 1px;
-    }
-
-    #tech-row {
         margin: 0 auto;
-        padding: 0;
-        width: 90%;
-    }
-
-    #centerText20 {
-        padding-left: 30px;
-        padding-right: 30px;
         padding-top: 10%;
     }
 
-    #centerText10 {
-        margin-top: 50px;
-        padding-left: 40px;
-        padding-right: 40px;
+    .blog-wrapper img {
+        width: 150%;
     }
 
-    #tech-row {
+    .blog-wrapper .img1 {
+        height: 40rem;
+        width: 25rem;
+    }
 
+    .blog-wrapper .img3 {
+        height: 40rem;
+        width: 25rem;
+    }
+
+    #blog-col p {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #myBtn {
+        font-size: 45px;
+    }
+
+    /* tooling */
+    #tooling {
+        width: 152vh;
+    }
+
+    /* projects */
+
+    #proj {
+        width: 152vh;
+        height: auto;
+    }
+
+    .project-item {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .project-content {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        height: 50%;
     }
 
-    #tech-hover {
-        width: 150px;
+    #centerText10 {
+        font-size: 30px;
+        padding-top: 10%;
     }
 
-    .section {
+    #centerText2 {
+        font-size: 4em;
+    }
+
+    #proj .project-info h3 {
+        font-size: 4em;
+    }
+
+    #proj .project-info p {
+        font-size: 2.5em;
+    }
+
+    #proj .project-info button {
+        margin-top: 5%;
+        height: 120px;
+        width: 350px;
+        font-size: 2.5em;
+        border-radius: 20px;
+
+    }
+
+    /* modal */
+    .modal {
+        width: 157vh;
+        height: auto;
         margin: 0 auto;
-        padding: 10%;
+        padding: 0;
     }
 
+    .modal-dialog {
+        width: 157vh;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .modal-backdrop {
+        position: fixed;
+        width: 157vh;
+        height: 100%;
+        background-color: #000;
+    }
+
+    .modal-content {
+        width: 157vh;
+    }
+
+
+    /* footer */
 
 
     #f-row {
-        flex-direction: column;
+        display: flex;
+        justify-content: center;
         align-items: center;
         padding-top: 20px;
     }
@@ -1170,6 +1248,24 @@
         padding: 10px 0;
 
     }
+
+    #f-col p {
+        font-size: 30px;
+    }
+
+    .nav__listeed {
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+
+    .nav__listeed a {
+        font-size: 30px;
+        width: auto;
+    }
+
 
     .f-nav__social-icons ion-icon {
         color: #fff;
@@ -1201,79 +1297,51 @@
     }
 
     #f-col ion-icon {
-        width: 20px;
+        width: 50px;
         /* Increase size for better touch targets */
-    }
-
-    #rowing2 {
-        padding-top: 10%;
     }
 
 
     .footer {
-        height: 7rem;
+        height: 12rem;
+        width: 152vh;
     }
 
-    #tech-row {
+    .abovethefooter {
+        width: 152vh;
+        height: 35rem;
+    }
+
+    .abovethefooter p {
+        font-size: 30px;
+    }
+
+    .abovethefooter img {
+        height: 8rem;
+        width: 39rem;
+    }
+
+    .logos {
+        width: 152vh;
+        height: 18rem;
+        display: flex;
         margin: 0 auto;
-        padding: 0;
-        width: 90%;
+        justify-content: center;
+        align-items: center;
     }
 
-    #projects {
-        height: 458vh;
+    .logos-slide {
+        height: 10rem;
+
     }
 
-    .section {
-        margin: 0 auto;
-        padding: 10%;
+    .logos-slide img {
+        width: 300px;
     }
-
-
 
     #f-col {
         margin: 0 auto;
         padding: 0;
         display: flex;
-    }
-
-    #blog {
-        height: 110vh;
-        padding-top: 20%;
-    }
-
-    #blogstart {
-        display: none;
-    }
-
-    #blogtext1 {
-        text-align: center;
-    }
-
-    .blog-wrapper .img1 {
-        height: 20rem;
-        width: 12rem;
-    }
-
-    #blog-col p {
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .blog-wrapper .img3 {
-        height: 20rem;
-        width: 12rem;
-    }
-
-    #centerText2 {
-        margin-top: 25px;
-        font-size: 5em;
-        text-align: center;
-    }
-
-    #centerText {
-        font-size: 30px;
     }
 }
