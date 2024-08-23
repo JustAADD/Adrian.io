@@ -15,7 +15,9 @@
     ;
     white-space: nowrap;
     position: relative;
+    height: 10rem;
 }
+
 
 .logos:before,
 .logos:after {
@@ -49,6 +51,6 @@
 
 .logos-slide img {
     height: auto;
-    width: 18rem;
+    width: auto;
     margin: 0 40px;
 }
