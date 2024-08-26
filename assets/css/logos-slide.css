@@ -12,10 +12,9 @@
     overflow: hidden;
     padding: 30px 0;
     background: #232323;
-    ;
+    height: auto;
     white-space: nowrap;
     position: relative;
-    height: 10rem;
 }
 
 
