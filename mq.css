@@ -1612,19 +1612,6 @@
         border-radius: 10px;
     }
 
-    .nav__listeed {
-        padding: 0;
-        margin: 0 auto;
-    }
-
-    .nav__listid {
-        display: flex;
-        justify-content: center;
-        padding: 0;
-        margin: 0 auto;
-        list-style-type: none;
-    }
-
     .footer {
         display: flex;
         justify-content: center;
@@ -1633,40 +1620,45 @@
 
     }
 
+    #f-col p {
+        font-size: 15px;
+        text-align: center;
+    }
+
     #f-row {
         display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        margin: 0 auto;
-        height: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     #f-col {
+        flex: 1;
+        justify-content: center;
+        align-items: center;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0 10px;
+        padding: 2px;
     }
+
+    .nav__listid .f-nav__social {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+        margin-inline: 5px;
+    }
+
 
     #f-col ion-icon {
         color: var(--white-color);
         width: 15px;
-
     }
 
-    #f-col ion-icon {
-        color: var(--white-color);
-        width: 15px;
-    }
+   #f-col img{
+    width: 50px;
+   } 
 
     .section {
         margin: 0 auto;
-    }
-
-    .f-nav__social {
-
-        margin: 0 auto;
-        padding: 0;
     }
 
     .logos {
@@ -1762,11 +1754,11 @@
     }
 
     .nav__close {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .nav__list a {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #home,
@@ -1966,33 +1958,20 @@
 
     #proj .project-info h3 {
         height: auto;
-        font-size: 40px;
+        font-size: 25px;
     }
 
     #proj .project-info p {
         height: auto;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #proj .project-info button {
         height: auto;
         font-size: 20px;
-        width: 200px;
-        height: 70px;
-        font-size: 25px;
-    }
-
-    .nav__listeed {
-        padding: 0;
-        margin: 0 auto;
-    }
-
-    .nav__listid {
-        display: flex;
-        justify-content: center;
-        padding: 0;
-        margin: 0 auto;
-        list-style-type: none;
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
     }
 
     .footer {
@@ -2003,40 +1982,41 @@
 
     }
 
+    #f-col p {
+        font-size: 12px;
+        text-align: center;
+    }
+
     #f-row {
         display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        margin: 0 auto;
-        height: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     #f-col {
+        flex: 1;
+        justify-content: center;
+        align-items: center;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0 10px;
+        padding: 2px;
+    }
+
+    .nav__listid .f-nav__social {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+        margin-inline: 5px;
     }
 
     #f-col ion-icon {
         color: var(--white-color);
         width: 15px;
 
-    }
-
-    #f-col ion-icon {
-        color: var(--white-color);
-        width: 15px;
     }
 
     .section {
         margin: 0 auto;
-    }
-
-    .f-nav__social {
-
-        margin: 0 auto;
-        padding: 0;
     }
 
     .logos {
@@ -2344,7 +2324,48 @@
         margin: 0 40px;
     }
 
-    #f-col p{
-        font-size: 8px;
+    #proj .project-info h3 {
+        height: auto;
+        font-size: 20px;
+    }
+
+    #proj .project-info p {
+        height: auto;
+        font-size: 14px;
+    }
+
+    #proj .project-info button {
+        height: auto;
+        font-size: 20px;
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    #f-col p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #f-row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #f-col {
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 2px;
+    }
+
+    .nav__listid .f-nav__social {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+        margin-inline: 5px;
     }
 }
