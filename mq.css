@@ -1431,7 +1431,7 @@
     }
 
     .image-wrapper::before {
-        top: 350px;
+        top: 400px;
     }
 
     .image-wrapper {
@@ -1457,7 +1457,9 @@
         padding-top: 30%;
         height: 50vh;
     }
-
+    #first-col{
+        padding: 5%;
+    }
     .first-col {
         order: 2;
         margin: 0 auto;
@@ -1471,6 +1473,12 @@
 
     #name {
         margin-top: -10%;
+        font-size: 28px;
+    }
+
+    #role,
+    #role1{
+        font-size: 18px;
     }
 
     #name,
@@ -1491,8 +1499,9 @@
 
     #whoiam {
         margin: 0 auto;
-        height: auto;
+        height: 125vh;
         display: block;
+        padding: 5%;
     }
 
     .blog-wrapper {
