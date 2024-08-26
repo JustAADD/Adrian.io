@@ -1321,7 +1321,7 @@
 
     .header {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-        height: 13vh;
+        height: 11vh;
         padding: 15px;
         caret-color: transparent;
     }
@@ -1333,14 +1333,14 @@
     }
 
     .header__toggle {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
 
     .nav__menu,
     .nav__listed {
         height: 100vh;
-        padding: 10px;
+        padding: 0;
         padding-top: 6%;
         width: 100%;
         overflow: hidden;
@@ -1362,7 +1362,7 @@
     }
 
     .nav__list a {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #home,
@@ -1424,12 +1424,14 @@
     }
 
     #hero-image {
-        height: 115vh;
+        height: 100vh;
+        margin: 0 auto;
+        padding: 0;
 
     }
 
     .image-wrapper::before {
-        top: 450px;
+        top: 350px;
     }
 
     .image-wrapper {
@@ -1447,35 +1449,40 @@
     }
 
     .second-col {
-        padding: 10%;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
         display: flex;
+        padding: 0;
+        padding-top: 30%;
+        height: 50vh;
     }
-
 
     .first-col {
         order: 2;
         margin: 0 auto;
-        padding: 5%;
-        padding-top: 20%;
-        font-size: 20px;
+        padding: 0;
+        font-size: 18px;
         text-align: center;
-        justify-content: center;
-        display: flex;
-        align-items: center;
-        height: 0;
+        height: auto;
+        width: 100%;
+        height: 50vh;
+    }
+
+    #name {
+        margin-top: -10%;
     }
 
     #name,
     #role,
     #role1 {
         text-align: center;
+        width: 100%;
     }
 
     #role-btn {
         width: 150px;
+        margin-top: 5%;
     }
 
     #about {
@@ -1486,16 +1493,36 @@
         margin: 0 auto;
         height: auto;
         display: block;
+    }
 
+    .blog-wrapper {
+        width: 70%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .blog-wrapper .img1 {
+        width: 12rem;
+    }
+    .blog-wrapper .img3{
+        width: 14rem;
     }
 
     .textto {
         padding: 15%;
     }
+    
+    #centerText2{
+        width: 100%;
+        font-size: 30px;
+    }
 
     #blog-col {
         text-align: center;
-        padding: 10%;
+        padding: 5%;
+        padding-top: 10%;
     }
 
     #tooling {
@@ -1557,7 +1584,7 @@
 
     #proj .project-info h3 {
         height: auto;
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #proj .project-info p {
@@ -1567,10 +1594,10 @@
 
     #proj .project-info button {
         height: auto;
-        font-size: 20px;
+        font-size: 18px;
         width: 200px;
         height: 70px;
-        font-size: 25px;
+        border-radius: 10px;
     }
 
     .nav__listeed {
@@ -1814,7 +1841,7 @@
     }
 
     .second-col {
-        padding-top: 20%;
+        padding-top: 15%;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
