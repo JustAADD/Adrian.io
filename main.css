@@ -224,8 +224,8 @@
 }
 
 .card-body img {
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 70px;
 }
 
 
@@ -234,6 +234,99 @@
     /* padding: 10%; */
     caret-color: transparent;
 }
+
+/* web */
+
+#web {
+    margin: 0 auto;
+    padding: 5%;
+    height: auto;
+    width: 100%;
+    background-color: #ecf3fe;
+    caret-color: transparent;
+}
+
+#clothing {
+    margin: 0 auto;
+    padding: 5%;
+    height: auto;
+    width: 100%;
+    background-color: #ecf3fe;
+    caret-color: transparent;
+}
+
+
+#pdy {
+    margin: 0 auto;
+    padding: 5%;
+    height: auto;
+    width: 100%;
+    caret-color: transparent;
+}
+
+#web-design {
+    margin: 0 auto;
+    padding: 0;
+    caret-color: transparent;
+}
+
+.carousel-item {
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slicks {
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dental {
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* Ensures the image covers the container without stretching */
+}
+
+
+
+#webText {
+    font-family: var(--body-font);
+    font-size: 100%;
+    column-gap: 1;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    color: #3c3c3c;
+    margin: 0;
+    caret-color: transparent;
+    text-align: center;
+}
+
+#webTitle {
+    font-family: var(--body-font);
+    font-size: 2rem;
+    column-gap: 2px;
+    font-weight: bold;
+    color: #3c3c3c;
+    margin: 0;
+    caret-color: transparent;
+    text-align: center;
+}
+
+
 
 /* blog */
 
@@ -313,8 +406,8 @@
 
 
 .card {
-    width: 18rem;
-    height: 15rem;
+    width: 21rem;
+    height: 14.5rem;
     /* background-color: #eaf3ff; */
     border: none;
     border-width: none;
@@ -337,6 +430,7 @@
     align-items: center;
     text-align: center;
     caret-color: transparent;
+    height: auto;
 }
 
 .card-body p {
@@ -346,6 +440,16 @@
     color: #686868;
     font-size: 12px;
     caret-color: transparent;
+}
+
+.tech {
+    height: 5rem;
+    padding: 2.5%;
+}
+
+.tech p {
+    font-family: var(--body-font);
+    font-size: medium;
 }
 
 
