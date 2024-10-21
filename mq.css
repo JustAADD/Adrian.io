@@ -1371,6 +1371,8 @@
         /* Hide horizontal overflow if necessary */
     }
 
+
+
     .container {
         width: 100%;
         padding: 0;
@@ -1480,15 +1482,18 @@
         height: auto;
     }
 
+    #home{
+        height: auto;
+    }
+
     #hero-image {
-        height: 100vh;
+        height: 160vh;
         margin: 0 auto;
         padding: 0;
-
     }
 
     .image-wrapper::before {
-        top: 400px;
+        top: 350px;
     }
 
     .image-wrapper {
@@ -1531,7 +1536,7 @@
     }
 
     #name {
-        margin-top: -10%;
+        
         font-size: 28px;
     }
 
@@ -1580,7 +1585,7 @@
     }
 
     .textto {
-        padding: 15%;
+        padding: 8%;
     }
 
     #centerText2 {
@@ -1770,6 +1775,9 @@
         width: 100%;
         padding: 2%;
     }
+    #web{
+        height: 150%;
+    }
 
     #pdy-col {
         margin: 0 auto;
@@ -1873,6 +1881,11 @@
         font-size: 20px;
     }
 
+    #home{
+        height: auto;
+    }
+
+
     #home,
     #hero-image,
     #whoiam,
@@ -1932,14 +1945,14 @@
     }
 
     #hero-image {
-        height: 115vh;
+        height: 140vh;
         padding: 0;
         margin: 0 auto;
 
     }
 
     .image-wrapper::before {
-        top: 350px;
+        top: 340px;
         width: 100%;
     }
 
@@ -1958,7 +1971,7 @@
     }
 
     .second-col {
-        padding-top: 15%;
+        padding-top: 25%;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
@@ -2004,6 +2017,10 @@
 
     .textto {
         padding: 15%;
+    }
+
+    #web{
+        height: 150%;
     }
 
     #blog-col {
@@ -2115,7 +2132,10 @@
         align-items: flex-start;
         margin: 0 auto;
         height: 6rem;
+    }
 
+    .abovethefooter{
+        height: 15rem;
     }
 
     #f-col p {
@@ -2215,6 +2235,7 @@
 }
 
 @media screen and (max-width: 300px) {
+
 
     *,
     *::before,
@@ -2608,6 +2629,6 @@
     }
 
     .raw {
-        height: 410px;
+        height: 400px;
     }
 }
