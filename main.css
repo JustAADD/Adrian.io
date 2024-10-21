@@ -240,7 +240,7 @@
 #web {
     margin: 0 auto;
     padding: 5%;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     background-color: #ecf3fe;
     caret-color: transparent;
@@ -270,6 +270,10 @@
     caret-color: transparent;
 }
 
+#uicard{
+    width: 22rem;
+    height: auto;
+}
 .carousel-item {
     height: 400px;
     overflow: hidden;
