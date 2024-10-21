@@ -240,7 +240,7 @@
 #web {
     margin: 0 auto;
     padding: 5%;
-    height: auto;
+    height: 100vh;
     width: 100%;
     background-color: #ecf3fe;
     caret-color: transparent;
