@@ -1853,9 +1853,12 @@
     }
 
     .raw {
-        height: 600px;
+        height: 400px;
     }
 
+    .abovethefooter {
+        height: 15rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
