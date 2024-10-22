@@ -1606,7 +1606,7 @@
 
     #whoiam {
         margin: 0 auto;
-        height: 130vh;
+        height: 140vh;
         display: block;
         padding: 5%;
     }
@@ -1635,7 +1635,7 @@
 
     .textto {
         padding: 8%;
-        height: 6%;
+        height: 12%;
     }
 
     #centerText2 {
@@ -1838,7 +1838,7 @@
     }
 
     .pdy-item {
-        height: 450px;
+        height: 400px;
     }
 
     .pdy-item img {
@@ -1849,7 +1849,7 @@
     }
 
     .slicks {
-        height: 500px;
+        height: 400px;
     }
 
     .raw {
